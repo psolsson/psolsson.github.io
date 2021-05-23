@@ -36,7 +36,11 @@ nav: true
                 {% if member.dblp_url %}<a href="{{ member.dblp_url }}" target="_blank" title="DBLP"><i class="ai ai-dblp"></i></a>{% endif %}
             </div>
             <div class="col-sm-8">
-                <p class="text-justify">{{member.description | markdownify}}</p>
+                <p class="text-justify">{{member.description | markdownify}} 
+                    {% if member.start-date %} 
+                    <br>Joined the lab on {{member.start-date}} (YY-MM-DD).
+                    {% endif %}
+                </p>
             </div>
         </div>
   {% endunless %}
