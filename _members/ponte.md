@@ -20,6 +20,6 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Julio works on estimating inter-molecular potentials using deep energy-based models using score-based methods with drug-discovery applications. Co-supervised by Dr. Rocío Mercado (AstraZeneca)."
+description: "Julio works on learning inter-molecular potentials using deep energy-based models via score-based estimators for drug-discovery. Co-supervised by Dr. Rocío Mercado (AstraZeneca)."
 start-date: 21-01-18
 ---
