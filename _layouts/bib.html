@@ -84,8 +84,15 @@
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     {% endif %}
     {% if entry.arxiv %}
-      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank"><i class="ai ai-arxiv ai-2x"></i></a>
     {% endif %}
+    {% if entry.biorxiv %}
+    <a href="https://www.biorxiv.org/content/10.1101/{{entry.biorxiv}}v1" target="_blank"><i class="ai ai-biorxiv ai-2x"></i></a>
+  {% endif %}
+    {% if entry.doi %}
+    <a href="http://dx.doi.org/{{ entry.doi }}" target="_blank"><i class="ai ai-doi ai-2x"></i></a>
+  {% endif %}
+
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     {% endif %}
