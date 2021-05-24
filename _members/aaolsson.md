@@ -22,6 +22,6 @@ In 2014, Simon was awarded an [independent postdoctoral fellowship from the Dani
 In 2016, Simon was awarded the [DRS postdoctoral fellowship](https://www.fu-berlin.de/en/sites/drs/postdocs/drs_fellowships/index.html) and an [Alexander von Humboldt postdoctoral fellowship](https://www.humboldt-foundation.de/) to join [Frank Noé](https://www.mi.fu-berlin.de/en/math/groups/comp-mol-bio/index.html) at FU Berlin to work on integrative methods for structural biology and artificial intelligence methods for the sciences.
 
 
-Since October 2020, Simon is a [WASP AI-MLX Professor](http://www.wasp-sweden.org/) for Artificial Intelligence in the Natural Sciences, at [Chalmers](http://www.chalmers.se), where he leads the Artificial Intelligence for the Natural Sciences (AIMLeNS) group.
+Since October 2020, Simon is a [WASP AI-MLX Professor](http://www.wasp-sweden.org/) for Artificial Intelligence in the Natural Sciences, at [Chalmers](http://www.chalmers.se), where he leads the Artificial Intelligence in the Natural Sciences (AIMLeNS) group.
 "
 ---
