@@ -23,5 +23,5 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Christopher works on geneative models protein structure and experimental data integration. He obtained his Bachelor's degree in Molecular Biology from the University of Basel (Switzerland). He continued to do his Master's in Structural Biology and Biophysics at the Biozentrum in the lab of [Sebastian Hiller](https://www.biozentrum.unibas.ch/research/researchgroups/overview/unit/hiller/research-group-prof-sebastian-hiller/) working on simulations of NMR experiments."
+description: "Christopher works on generative models protein structure and experimental data integration. He obtained his Bachelor's degree in Molecular Biology from the University of Basel (Switzerland). He continued to do his Master's in Structural Biology and Biophysics at the Biozentrum in the lab of [Sebastian Hiller](https://www.biozentrum.unibas.ch/research/researchgroups/overview/unit/hiller/research-group-prof-sebastian-hiller/) working on simulations of NMR experiments."
 ---

@@ -22,6 +22,6 @@ strava_userid:
 keybase_username:
 gitlab_username: Tobblatzius
 dblp_url:
-description: "Tobias works on generative, probabilistic models for protein sequences with application in protein and biologics design. Before joining the lab, Tobias did his MSc thesis with Prof. Claes Strannegaard on Multi-Agent Deep Reinforcement Learning in a
+description: "Tobias works on generative, probabilistic models for protein sequences with application in protein and biologics design. Before joining the lab, Tobias did his MSc thesis with Prof. Claes Strannegård on Multi-Agent Deep Reinforcement Learning in a
 Three-Species Predator-Prey Ecosystem."
 ---
