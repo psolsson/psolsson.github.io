@@ -2,7 +2,7 @@
 name: Julio Ponte Hernandez 
 image: /assets/img/julio.png
 position: MSc student
-#current: # for alumni
+current: Alumnus
 pronouns: 
 email: julio@student.chalmers.se
 scholar_userid: 
@@ -20,6 +20,7 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Julio works on learning inter-molecular potentials using deep energy-based models via score-based estimators for drug-discovery. Co-supervised by Dr. Rocío Mercado (AstraZeneca)."
+description: "Julio worked on learning inter-molecular potentials using deep energy-based models via score-based estimators for drug-discovery. Co-supervised by Dr. Rocío Mercado (AstraZeneca)."
 start-date: 21-01-18
+end-date: 21-06-09
 ---

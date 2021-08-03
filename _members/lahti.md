@@ -2,7 +2,7 @@
 name: Gustav Lahti 
 image: /assets/img/gustav.png
 position: MSc student
-#current: # for alumni
+current: Alumnus
 pronouns: 
 email: gustav.lahti@gmail.com
 scholar_userid: 
@@ -20,7 +20,8 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Gustav works with Agnes to use multi-label classification methods to predict  contexts for chemical reactions. Co-supervised by Dr. Samuel Genheden and Dr. Thierry Kogej (AstraZeneca)."
+description: "Gustav worked with Agnes to use multi-label classification methods to predict  contexts for chemical reactions. Co-supervised by Dr. Samuel Genheden and Dr. Thierry Kogej (AstraZeneca)."
 start-date: 21-01-18
+end-date: 21-06-01
 ---
 

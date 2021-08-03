@@ -2,7 +2,7 @@
 name: David Larsson 
 image: /assets/img/david.png
 position: MSc student
-#current: # for alumni
+current: Alumnus
 pronouns: 
 email: larsdav@student.chalmers.se
 scholar_userid: 
@@ -20,7 +20,8 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "David works with Julia on deep generative models for near-term quantum device control with applications in chemistry. Co-supervised by [Assistant Professor Morten Kjaergaard](https://www.nbi.ku.dk/english/staff/?pure=en/persons/290081) (NBI, University of Copenhagen)."
+description: "David worked with Julia on deep generative models for near-term quantum device control with applications in chemistry. Co-supervised by [Assistant Professor Morten Kjaergaard](https://www.nbi.ku.dk/english/staff/?pure=en/persons/290081) (NBI, University of Copenhagen)."
 start-date: 21-01-18
+end-date: 21-07-05
 ---
 

@@ -2,7 +2,7 @@
 name: Sara Romeo Atance
 image: /assets/img/sara.png
 position: MSc student
-#current: # for alumni
+current: Global Graduate at Volvo Cars
 pronouns: 
 email: atance@student.chalmers.se
 scholar_userid: 
@@ -22,4 +22,6 @@ gitlab_username:
 dblp_url:
 description: "Sara works with Juan to build deep generative models for molecular design with desired property profiles and 3D conformer distributions. Co-supervised by Dr. Rocío Mercado (AstraZeneca)."
 start-date: 21-01-18
+end-date: 21-06-21  
+
 ---

@@ -1,7 +1,7 @@
 ---
 name: Juan Viguera Diez
 image: /assets/img/juan.png
-position: MSc student
+position: Industrial PhD student (AstraZeneca)
 #current: # for alumni
 pronouns: 
 email: viguera@student.chalmers.se
@@ -20,7 +20,7 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Juan works with Sara to build deep generative models for molecular design with desired property profiles and 3D conformer distributions. Co-supervised by Dr. Rocío Mercado (AstraZeneca)."
+description: "Juan works on deep generative models for sampling of 3D configurations of small, drug-like molecules, and molecular property prediction (Industry advisors: Ola Engkvist and Atanas Patronov). Before starting as a PhD student, Juan worked in the group as a MSc student with Sara to build deep generative models for molecular design with desired property profiles and 3D conformer distributions. That project was co-supervised by Dr. Rocío Mercado (AstraZeneca)."
 start-date: 21-01-18
 ---
 
