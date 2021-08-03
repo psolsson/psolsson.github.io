@@ -2,7 +2,7 @@
 name: Julia Szulc 
 image: /assets/img/julia.jpg
 position: MSc student
-#current: # for alumni
+current: Alumnus # for alumni
 pronouns: 
 email: juliasz@student.chalmers.se
 scholar_userid: 
