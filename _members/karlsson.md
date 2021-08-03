@@ -1,10 +1,10 @@
 ---
 name: Tobias Karlsson
-image: /assets/img/tobias.png
+image: /assets/img/tobias.jpg
 position: PhD
 #current: # for alumni
 start-date: 21-09-01
-end-date: YY-MM-DD  
+#end-date: YY-MM-DD  
 pronouns: 
 email: tobiaka@student.chalmers.se
 scholar_userid: 
