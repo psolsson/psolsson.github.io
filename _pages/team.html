@@ -11,7 +11,7 @@ nav: true
         <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
         <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
             <div class="col-sm-3">
-                <img class="img-fluid rounded-circle" src="{{member.image}}" width="256" height="256"><br>
+                <img class="img-fluid rounded-circle" src="{{member.image}}" width="200" height="200"><br>
                 <strong>{{member.name}}</strong> <br>
                 {% if member.pronouns %}
                 <em>{{member.pronouns}}</em> <br>
@@ -77,7 +77,7 @@ nav: true
                 {% if member.dblp_url %}<a href="{{ member.dblp_url }}" target="_blank" title="DBLP"><i class="ai ai-dblp"></i></a>{% endif %}
             </div>
             <div class="col-sm-8">
-                <p class="text-justify">{{member.description | markdownify}} <br> {{member.name}} was working with us from {{member.start-date}} to {{member.end-date}}, and has since moved on to {{member.current}}.</p>
+                <p class="text-justify">{{member.description | markdownify}} <br> {{member.name}} was working with us from {{member.start-date}} to {{member.end-date}}, and has since moved on to be {{member.current}}.</p>
             </div>
         </div>
   {% endif %}
