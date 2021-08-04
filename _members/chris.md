@@ -1,7 +1,7 @@
 ---
 name: "Christopher Kolloff"
 image: /assets/img/chris.png
-position: "PhD Student"
+position: "PhD student"
 start-date: 21-08-01
 # for alumni
 current:

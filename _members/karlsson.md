@@ -1,7 +1,7 @@
 ---
 name: Tobias Karlsson
 image: /assets/img/tobias.jpg
-position: PhD
+position: PhD student
 #current: # for alumni
 start-date: 21-09-01
 #end-date: YY-MM-DD  
