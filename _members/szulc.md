@@ -2,7 +2,7 @@
 name: Julia Szulc 
 image: /assets/img/julia.jpg
 position: MSc student
-current: Alumnus # for alumni
+current: Data Scientist at Volvo Cars # for alumni
 pronouns: 
 email: juliasz@student.chalmers.se
 scholar_userid: 

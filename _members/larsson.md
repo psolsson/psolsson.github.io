@@ -2,7 +2,7 @@
 name: David Larsson 
 image: /assets/img/david.png
 position: MSc student
-current: Alumnus
+current: working at CEVT, Emerging Tech. 
 pronouns: 
 email: larsdav@student.chalmers.se
 scholar_userid: 
