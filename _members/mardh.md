@@ -2,7 +2,7 @@
 name: Agnes Mårdh 
 image: /assets/img/agnes.png
 position: MSc student
-current: Alumnus
+current: Developer at Bokio 
 pronouns: 
 email: agnes.mardh@gmail.com
 scholar_userid: 
@@ -20,7 +20,7 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Agnes worked with Gustav to use multi-label classification methods to predict  contexts for chemical reactions. Co-supervised by Dr. Samue*l Genheden and Dr. Thierry Kogej (AstraZeneca)."
+description: "Agnes worked with Gustav to use multi-label classification methods to predict  contexts for chemical reactions. Co-supervised by Dr. Samuel Genheden and Dr. Thierry Kogej (AstraZeneca)."
 start-date: 21-01-18
 end-date: 21-06-01
 ---

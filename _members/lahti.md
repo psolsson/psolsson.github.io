@@ -2,7 +2,7 @@
 name: Gustav Lahti 
 image: /assets/img/gustav.png
 position: MSc student
-current: Alumnus
+current: Consultant at Ericsson
 pronouns: 
 email: gustav.lahti@gmail.com
 scholar_userid: 
