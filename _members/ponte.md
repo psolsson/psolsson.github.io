@@ -2,7 +2,7 @@
 name: Julio Ponte Hernandez 
 image: /assets/img/julio.png
 position: MSc student
-current: Alumnus
+current: Data Scientist at Heliospectra
 pronouns: 
 email: julio@student.chalmers.se
 scholar_userid: 
