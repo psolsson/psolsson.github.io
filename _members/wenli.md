@@ -1,11 +1,11 @@
 ---
 name: Wenli Gao
-image: /assets/img/wenli.png
+image: /assets/img/wenli.jpg
 position: MSc Student
 #current: # for alumni
 start-date: 22-01-14
 end-date: YY-MM-DD  
-pronouns: she/her/her
+pronouns: she/her/hers
 email: wenli@student.chalmers.se
 scholar_userid: 
 publons_id:

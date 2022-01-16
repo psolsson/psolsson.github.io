@@ -1,6 +1,6 @@
 ---
 name: Enmin Su
-image: /assets/img/enmin.png
+image: /assets/img/enmin.jpg
 position: MSc Student
 #current: # for alumni
 start-date: 22-01-14
