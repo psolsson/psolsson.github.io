@@ -4,7 +4,7 @@ image: /assets/img/dip.jpg
 position: 
 #current: # for alumni
 start-date: 22-01-17
-#end-date: 22-06-30  
+end-date: DD-MM-YY #22-06-30  
 pronouns: 
 email: gusaswdi@student.gu.se
 scholar_userid: 
