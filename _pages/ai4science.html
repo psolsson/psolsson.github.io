@@ -1,0 +1,10 @@
+---
+layout: default
+title: AI4ScienceSeminar
+permalink: /events
+nav: true
+---
+{% assign currentEvent = site.data.upcomingEvents.first %}
+<h2><a href="{{ currentEvent.url }}">{{ currentEvent.start }}</a></h2>
+<p><strong>{{ currentEvent.location }}</strong></p>
+<p>{{ currentEvent.content }}</p>

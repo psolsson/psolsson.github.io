@@ -93,6 +93,9 @@ collections:
     permalink: /projects/:path/
   members:
     output: true
+  seminar:
+    output: true
+    permalink: /event/:path/
 
 
 news_limit: 5
