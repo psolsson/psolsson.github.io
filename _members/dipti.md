@@ -23,5 +23,4 @@ keybase_username:
 gitlab_username:
 dblp_url:
 description: "Dipti works with Azadeh to build deep generative models to accelerate molecular conformer generation by incorporating new Normalizing Flows that respect data topology and are more efficient molecular convolutional models. She is a MSc student in Data Science and AI and is co-supervised by Juan."
-
 ---
