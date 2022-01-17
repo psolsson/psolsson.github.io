@@ -5,16 +5,19 @@ permalink: /events
 nav: true
 ---
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-
-{% for event in site.data.upcomingEvents %}
+{% assign sorted = site.data.upcomingEvents | sort: 'date' | reverse %}
+{% for event in sorted %}
 <div id = "{{event.speaker}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <div class="col-sm-3">
         <img class="img-fluid rounded-circle" src="{{event.photo}}" width="200px" height="200px"><br>      
     </div>
     <div class="col-sm-8">
+        {{event.start | date_to_long_string}}; {{event.start | %H:%M }}<br>
         <h2>{{event.title}}</h2><br>
         <strong>{{event.speaker}}</strong><br> 
-        <p class="text-justify">{{event.abstract | markdownify}} 
+        <p class="text-justify"><b>Abstract: </b>{{event.abstract | markdownify}} 
+        </p>
+        <p class="text-justify">{{event.bio | markdownify}} 
         </p>
         <br><a href="https://chalmers.zoom.us/j/{{event.zoomroom}}">Connect via Zoom</a> password: {{event.zoompassword}}
     </div>
@@ -22,7 +25,8 @@ nav: true
 {% endfor %}
 <hr>
 <h2>Previous talks:</h2>
-{% for event in site.data.previousEvents %}
+{% assign sorted = site.data.previousEvents | sort: 'date' | reverse %}
+{% for event in sorted %}
 <div id = "{{event.speaker}}" class="row" style="padding-top: 60px; margin-top: -60px;">
     <div class="col-sm-3">
         <img class="img-fluid rounded-circle" src="{{event.photo}}" width="200px" height="200px"><br>      

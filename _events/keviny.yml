@@ -1,0 +1,12 @@
+---
+layout: event
+speaker: "Kevin Yang (Microsoft Research)"
+title: Multimodal Machine Learning for Protein Engineering
+abstract: Engineered proteins play increasingly essential roles in industries and applications spanning pharmaceuticals, agriculture, specialty chemicals, and fuel. Machine learning could enable an unprecedented level of control in protein engineering for therapeutic and industrial applications. Large self-supervised models pretrained on millions of protein sequences have recently gained popularity in generating embeddings of protein sequences for protein property prediction. However, protein datasets contain information in addition to sequence that can improve model performance. This talk will cover pretrained models that use both sequence and structural data, their application to predict which portions of proteins can be removed while retaining function, and a new set of protein fitness benchmarks to measure progress in pretrained models of proteins.
+bio: Kevin Yang is a senior researcher at Microsoft Research in Cambridge, MA who works on problems at the intersection of machine learning and biology. He did his PhD at Caltech with Frances Arnold on applying machine learning to protein engineering. Before joining MSR, he was a machine learning scientist at Generate Biomedicines, where he used machine learning to optimize proteins. Before graduate school, Kevin taught math and physics for three years at a high school in Inglewood, California through Teach for America.
+photo: https://www.microsoft.com/en-us/research/uploads/prod/2020/09/profile-centered.jpeg
+start: 2022-03-10T15:30:00.00+01:00
+end: 2022-03-10T16:30:00.00+01:00
+zoomroom: 68383168724
+zoompassword: ai4science
+---
