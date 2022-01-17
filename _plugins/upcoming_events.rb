@@ -6,6 +6,7 @@ module Reading
       site.collections.each do |name, collection|
         if name == 'events'
           site.data['upcomingEvents'] = collection.docs.select { |event| event.data['start'] >= Time.now }
+          site.data['previousEvents'] = collection.docs.select { |event| event.data['end'] < Time.now }
         end
       end
     end

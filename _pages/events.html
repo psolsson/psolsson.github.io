@@ -4,7 +4,35 @@ title: AI4ScienceSeminar
 permalink: /events
 nav: true
 ---
-{% assign currentEvent = site.data.upcomingEvents.first %}
-<h2><a href="{{ currentEvent.url }}">{{ currentEvent.start }}</a></h2>
-<p><strong>{{ currentEvent.location }}</strong></p>
-<p>{{ currentEvent.content }}</p>
+<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+
+{% for event in site.data.upcomingEvents %}
+<div id = "{{event.speaker}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="{{event.photo}}" width="200px" height="200px"><br>      
+    </div>
+    <div class="col-sm-8">
+        <h2>{{event.title}}</h2><br>
+        <strong>{{event.speaker}}</strong><br> 
+        <p class="text-justify">{{event.abstract | markdownify}} 
+        </p>
+        <br><a href="https://chalmers.zoom.us/j/{{event.zoomroom}}">Connect via Zoom</a> password: {{event.zoompassword}}
+    </div>
+</div>
+{% endfor %}
+<hr>
+<h2>Previous talks:</h2>
+{% for event in site.data.previousEvents %}
+<div id = "{{event.speaker}}" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="{{event.photo}}" width="200px" height="200px"><br>      
+    </div>
+    <div class="col-sm-8">
+        <h2>{{event.title}}</h2><br>
+        <strong>{{event.speaker}}</strong><br> 
+        <p class="text-justify">{{event.abstract | markdownify}} 
+        </p>
+        <br><a href="https://chalmers.zoom.us/j/{{event.zoomroom}}">Connect via Zoom</a> password: {{event.zoompassword}}
+    </div>
+</div>
+{% endfor %}
