@@ -4,6 +4,9 @@ title: AI4ScienceSeminar
 permalink: /events
 nav: true
 ---
+<h1>Chalmers AI4Science Seminar</h1><br>
+Advances in machine learning and AI systems are increasingly influencing how we approach the quantitative sciences, including physics, chemistry, and biology. These opportunities include having machines learn new representations of interactions between particles, how matter transforms in reactions, help us decide what experiment to conduct next or detect emerging phenomena. Sparse data situations remain a significant hurdle in many sciences or situations where common data assumptions do not hold. Consequently, it remains critical to ground our efforts in the millennia of scientific insights embodied in the literature to avoid, in the best case, having machines relearn what we already know. The Chalmers AI4Science is a monthly seminar where we invite early-career researchers to present their work at the interface of machine learning, artificial intelligence, and a scientific discipline. This seminar series aims to provide an international platform at Chalmers for discussions about these topics and strengthen interdisciplinary research involving machine learning and AI at Chalmers.
+<br>
 <!-- The paddingtop and margin-top edits allow anchors to link properly. -->
 {% assign sorted = site.data.upcomingEvents | sort: 'date' | reverse %}
 {% for event in sorted %}
@@ -12,16 +15,19 @@ nav: true
         <img class="img-fluid rounded-circle" src="{{event.photo}}" width="200px" height="200px"><br>      
     </div>
     <div class="col-sm-8">
-        {{event.start | date_to_long_string}}; {{event.start | %H:%M }}<br>
+        {{event.start | date: "%e %B, %Y %H:%M"}} (local Swedish time)<br>
         <h2>{{event.title}}</h2><br>
         <strong>{{event.speaker}}</strong><br> 
-        <p class="text-justify"><b>Abstract: </b>{{event.abstract | markdownify}} 
+        <p class="text-justify"><b>Abstract:</b>{{event.abstract | markdownify}} 
         </p>
         <p class="text-justify">{{event.bio | markdownify}} 
         </p>
         <br><a href="https://chalmers.zoom.us/j/{{event.zoomroom}}">Connect via Zoom</a> password: {{event.zoompassword}}
     </div>
 </div>
+<br>
+<hr>
+<br>
 {% endfor %}
 <hr>
 <h2>Previous talks:</h2>
@@ -32,11 +38,17 @@ nav: true
         <img class="img-fluid rounded-circle" src="{{event.photo}}" width="200px" height="200px"><br>      
     </div>
     <div class="col-sm-8">
+        {{event.start | date: "%e %B, %Y %H:%M"}} (local Swedish time)<br>
         <h2>{{event.title}}</h2><br>
         <strong>{{event.speaker}}</strong><br> 
-        <p class="text-justify">{{event.abstract | markdownify}} 
+        <p class="text-justify"><b>Abstract:</b>{{event.abstract | markdownify}} 
+        </p>
+        <p class="text-justify">{{event.bio | markdownify}} 
         </p>
         <br><a href="https://chalmers.zoom.us/j/{{event.zoomroom}}">Connect via Zoom</a> password: {{event.zoompassword}}
     </div>
 </div>
+<br>
+<hr>
+<br>
 {% endfor %}
