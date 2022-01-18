@@ -95,8 +95,7 @@ collections:
     output: true
   events:
     output: true
-    permalink: /events/:path/
-
+    permalink: /AI4ScienceSeminar/:path/
 
 news_limit: 5
 
