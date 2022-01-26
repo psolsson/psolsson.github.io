@@ -43,27 +43,15 @@ END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20211210T160437Z
 LOCATION:https://chalmers.zoom.us/j/68588914128 password: ai4science
-SUMMARY:Bastian Rieck -- Chalmers AI4Science seminar 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT;CN=Juan Viguera Diez;
- EMAIL=viguera@chalmers.se;CUTYPE=INDIVIDUAL;RSVP=TRUE:mailto:
- viguera@chalmers.se
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT;CN=Tobias Karlsson;
- EMAIL=tobiaka@chalmers.se;CUTYPE=INDIVIDUAL;RSVP=TRUE:mailto:
- tobiaka@chalmers.se
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT;CN=Vladimir Pastukhov;
- EMAIL=vlapas@chalmers.se;CUTYPE=INDIVIDUAL;RSVP=TRUE:mailto:
- vlapas@chalmers.se
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT;CN=Christopher 
- Kolloff;EMAIL=kolloff@chalmers.se;CUTYPE=INDIVIDUAL;RSVP=TRUE:mailto:
- kolloff@chalmers.se
+SUMMARY:Rianne van den Berg -- Chalmers AI4Science seminar 
 LAST-MODIFIED:20211210T163134Z
 ORGANIZER;CN=Simon Olsson;EMAIL=simonols@chalmers.se:mailto:
  simonols@chalmers.se
-DTEND;TZID=Europe/Berlin:20220210T143000
+DTEND;TZID=Europe/Berlin:20220210T150000
 TRANSP:OPAQUE
 UID:57E5ED72-7E14-426B-97A8-1602ADC20B3D
-DTSTART;TZID=Europe/Berlin:20220210T133000
-DTSTAMP:20220126T194431Z
+DTSTART;TZID=Europe/Berlin:20220210T140000
+DTSTAMP:20220120T050132Z
 SEQUENCE:1
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 END:VEVENT
@@ -71,28 +59,13 @@ BEGIN:VEVENT
 CREATED:20211210T161700Z
 LOCATION: https://chalmers.zoom.us/j/68383168724 password: ai4science
 SUMMARY:Kevin Yang -- Chalmers AI4Science seminar
-ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Vladimir Pastukhov;
- EMAIL=vlapas@chalmers.se;CUTYPE=INDIVIDUAL:mailto:vlapas@chalmers.se
-ATTENDEE;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT;CN=Juan Viguera Diez;
- EMAIL=viguera@chalmers.se;CUTYPE=INDIVIDUAL:mailto:viguera@chalmers.se
-ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Christopher Kolloff;
- EMAIL=kolloff@chalmers.se;CUTYPE=INDIVIDUAL:mailto:kolloff@chalmers.se
-ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Tobias Karlsson;
- EMAIL=tobiaka@chalmers.se;CUTYPE=INDIVIDUAL:mailto:tobiaka@chalmers.se
-ATTENDEE;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT;
- CN=yang.kevin@microsoft.com;EMAIL=yang.kevin@microsoft.com;
- CUTYPE=INDIVIDUAL:mailto:yang.kevin@microsoft.com
-ATTENDEE;PARTSTAT=ACCEPTED;ROLE=OPT-PARTICIPANT;
- CN=tobblatzius95@gmail.com;EMAIL=tobblatzius95@gmail.com;
- CUTYPE=INDIVIDUAL:mailto:tobblatzius95@gmail.com
-LAST-MODIFIED:20211210T163014Z
 ORGANIZER;CN=Simon Olsson;EMAIL=simonols@chalmers.se:mailto:
  simonols@chalmers.se
 DTEND;TZID=Europe/Berlin:20220310T163000
 TRANSP:OPAQUE
 UID:DEC300C7-5BEF-4002-8005-6857BC620BCD
 DTSTART;TZID=Europe/Berlin:20220310T153000
-DTSTAMP:20220126T194431Z
+DTSTAMP:20220120T050132Z
 SEQUENCE:1
 X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
 END:VEVENT
@@ -100,10 +73,6 @@ BEGIN:VEVENT
 CREATED:20220117T162959Z
 LOCATION:https://chalmers.zoom.us/j/69100596365
 SUMMARY:Francesca Grisoni -- Chalmers AI4Science seminar 
-ATTENDEE;PARTSTAT=ACCEPTED;EMAIL=simonols@chalmers.se;CUTYPE=INDIVIDUAL:
- mailto:simonols@chalmers.se
-ATTENDEE;PARTSTAT=NEEDS-ACTION;EMAIL=f.grisoni@tue.nl;CUTYPE=INDIVIDUAL:
- mailto:f.grisoni@tue.nl
 LAST-MODIFIED:20220117T162959Z
 ORGANIZER;EMAIL=simonols@chalmers.se:mailto:simonols@chalmers.se
 DTEND;TZID=Europe/Stockholm:20220609T150000
@@ -118,11 +87,7 @@ BEGIN:VEVENT
 CREATED:20220115T204819Z
 LOCATION:https://chalmers.zoom.us/j/61255141853
 SUMMARY:Evert van Nieuwenburg -- Chalmers AI4Science seminar 
-ATTENDEE;PARTSTAT=ACCEPTED;EMAIL=simonols@chalmers.se;CUTYPE=INDIVIDUAL:
- mailto:simonols@chalmers.se
-ATTENDEE;PARTSTAT=NEEDS-ACTION;EMAIL=evert.v.nieuwenburg@gmail.com;
- CUTYPE=INDIVIDUAL:mailto:evert.v.nieuwenburg@gmail.com
-LAST-MODIFIED:20220115T204819Z
+LAST-MODIFIED:20211210T163134Z
 ORGANIZER;EMAIL=simonols@chalmers.se:mailto:simonols@chalmers.se
 DTEND;TZID=Europe/Stockholm:20220414T150000
 TRANSP:OPAQUE
@@ -136,10 +101,6 @@ BEGIN:VEVENT
 CREATED:20220119T063311Z
 LOCATION: https://chalmers.zoom.us/j/63275419679
 SUMMARY:Bethany Lusch -- Chalmers AI4Science seminar 
-ATTENDEE;PARTSTAT=ACCEPTED;EMAIL=simonols@chalmers.se;CUTYPE=INDIVIDUAL:
- mailto:simonols@chalmers.se
-ATTENDEE;PARTSTAT=NEEDS-ACTION;EMAIL=blusch@anl.gov;CUTYPE=INDIVIDUAL:
- mailto:blusch@anl.gov
 LAST-MODIFIED:20220119T063311Z
 ORGANIZER;EMAIL=simonols@chalmers.se:mailto:simonols@chalmers.se
 DTEND;TZID=Europe/Stockholm:20220512T160000

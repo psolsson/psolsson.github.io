@@ -1,6 +1,6 @@
 ---
 name: Guillem Casadevall
-image: /assets/img/guillem.png
+image: /assets/img/guillem.jpg
 position: Visiting PhD student
 #current: # for alumni
 start-date: 22-01-12
