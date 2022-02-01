@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Bethany A Lusch (Argonne National Lab)"
-title: tba
+title: Data-driven discovery of coordinates and governing equations
 bio: Dr. Bethany Lusch is an Assistant Computer Scientist in the data science group at the Argonne Leadership Computing Facility at Argonne National Lab. Her research expertise includes developing methods and tools to integrate AI with science, especially for dynamical systems and PDE-based simulations. Her recent work includes developing machine-learning emulators to replace expensive parts of simulations, such as computational fluid dynamics simulations of engines and climate simulations. She is also working on methods that incorporate domain knowledge in machine learning, representation learning, and using machine learning to analyze supercomputer logs. She holds a PhD and MS in applied mathematics from the University of Washington and a BS in mathematics from the University of Notre Dame.
-abstract: tba
+abstract: Governing equations are essential to the study of physical systems, providing models that can generalize to predict previously unseen behaviors. There are many systems of interest across disciplines where large quantities of data have been collected, but the underlying governing equations remain unknown. This work introduces an approach to discover governing models from data. The proposed method addresses a key limitation of prior approaches by simultaneously discovering coordinates that admit a parsimonious dynamical model. Developing parsimonious and interpretable governing models has the potential to transform our understanding of complex systems, including in neuroscience, biology, and climate science.
 photo: https://bethanyl.github.io/author/bethany-lusch/avatar_huffd2860d0c0d4bd1f6d3d21cd9c12409_334846_270x270_fill_q90_lanczos_center.jpg
 start: 2022-05-12T15:00:00.00+01:00
 end: 2022-05-12T16:00:00.00+01:00
