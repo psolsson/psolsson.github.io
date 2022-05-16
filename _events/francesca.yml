@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Francesca Grisoni (Eidenhoven University of Technology)"
-title: tba
-bio: tba
-abstract: tba
+title: De novo drug design with chemical language models 
+bio: Francesca Grisoni is a tenure-track Assistant Professor at the Eindhoven University of Technology, where she leads the Molecular Machine Learning team. After receiving her PhD in 2016 at the University of Milano-Bicocca, with a dissertation on machine learning for (eco)toxicology, Francesca worked as a data scientist and as a biostatistical consultant for the pharmaceutical industry. Later, she joined the University of Milano-Bicocca (in 2017) and the ETH Zurich (in 2019) as a postdoctoral researcher, working on machine learning for drug discovery and molecular property prediction. Her current research focuses on developing novel chemistry-centered AI methods to augment human intelligence in drug discovery, at the interface between computation and wet-lab experiments.
+abstract: Artificial intelligence (AI) is fueling computer-aided drug discovery. Chemical language models (CLMs) constitute a recent addition to the medicinal chemist’s toolkit for AI-driven drug design. CLMs can be used to generate novel molecules in the form of strings (e.g., SMILES, SELFIES) without relying on human-engineered molecular assembly rules. By taking inspiration from natural language processing, CLMs have shown able to learn “syntax” rules for molecule generation, and to implicitly capture “semantic” molecular features, such as physicochemical properties, bioactivity, and chemical synthesizability. This talk will illustrate some successful applications of CLMs to design novel bioactive compounds from scratch in the context of drug discovery, at the interface between theory and wet-lab experiments. Moreover, the talk will provide a personal perspective on current limitations and future opportunities for AI in medicinal and organic chemistry, to accelerate molecule discovery and chemical space exploration.
 photo: https://research.tue.nl/files-asset/173609561/thumbnail_Grisoni_Francesca_BMT_PO_AS_2560.jpg?w=200&h=200
 start: 2022-06-09T14:00:00.00+01:00
 end: 2022-06-09T15:00:00.00+01:00
