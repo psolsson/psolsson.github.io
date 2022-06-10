@@ -2,9 +2,9 @@
 name: Guillem Casadevall
 image: /assets/img/guillem.jpg
 position: Visiting PhD student
-#current: # for alumni
+current: PhD Student at University of Girona # for alumni
 start-date: 22-01-12
-#end-date: 22-05-04
+end-date: 22-05-04
 pronouns: 
 email: guillem.casadevall@udg.edu
 scholar_userid: P3SVGcYAAAAJ&h 
