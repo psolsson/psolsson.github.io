@@ -1,0 +1,12 @@
+---
+layout: event
+speaker: "Tess E. Smidt (University of Maryland, College Park)"
+title: tba
+bio: Tess Smidt is an Assistant Professor of Electrical Engineering and Computer Science at MIT. Tess earned her SB in Physics from MIT in 2012 and her PhD in Physics from the University of California, Berkeley in 2018. Her research focuses on machine learning that incorporates physical and geometric constraints, with applications to materials design. Prior to joining the MIT EECS faculty, she was the 2018 Alvarez Postdoctoral Fellow in Computing Sciences at Lawrence Berkeley National Laboratory and a Software Engineering Intern on the Google Accelerated Sciences team where she developed Euclidean symmetry equivariant neural networks which naturally handle 3D geometry and geometric tensor data.
+abstract: tba
+photo: https://blondegeek.github.io/tess_smidt_headshot.jpeg
+start: 2022-12-08T15:30:00.00+01:00
+end: 2022-12-08T16:30:00.00+01:00
+zoomroom: tbc
+zoompassword: ai4science
+---
