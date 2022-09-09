@@ -2,7 +2,7 @@
 name: Dipti Aswal
 image: /assets/img/dip.jpg
 position: MSc student
-#current: # for alumni
+current: Operational Planner at Volvo Trucks
 start-date: 22-01-17
 end-date: 22-08-31 #22-06-30  
 pronouns: 

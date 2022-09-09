@@ -2,7 +2,7 @@
 name: Azadeh Karimisefat
 image: /assets/img/azadeh.jpg
 position: MSc Student
-#current: # for alumni
+current: Software Engineer at Volvo Group
 start-date: 22-01-17
 end-date: 22-08-31 #22-06-30  
 pronouns: 
