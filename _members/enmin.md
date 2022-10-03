@@ -4,7 +4,7 @@ image: /assets/img/enmin.jpg
 position: MSc Student
 #current: # for alumni
 start-date: 22-01-14
-end-date: YY-MM-DD  
+end-date: 22-09-28  
 pronouns: he/him/his
 email: enmin@student.chalmers.se
 scholar_userid: 
