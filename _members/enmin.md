@@ -2,7 +2,7 @@
 name: Enmin Su
 image: /assets/img/enmin.jpg
 position: MSc Student
-#current: # for alumni
+current: Pending... 
 start-date: 22-01-14
 end-date: 22-09-28  
 pronouns: he/him/his

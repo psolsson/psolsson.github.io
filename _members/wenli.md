@@ -2,7 +2,7 @@
 name: Wenli Gao
 image: /assets/img/wenli.jpg
 position: MSc Student
-#current: # for alumni
+current: Software Engineer at Etraveli Group # for alumni
 start-date: 22-01-14
 end-date: 22-09-28  
 pronouns: she/her/hers
