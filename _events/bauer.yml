@@ -1,0 +1,14 @@
+---
+layout: event
+speaker: "Stefan Bauer (KTH Royal Institute of Technology)"
+title: tba
+bio: "<p>Stefan Bauer is currently an assistant professor at KTH Stockholm and a CIFAR Azrieli Global Scholar. Using and developing tools of causality, deep learning and real robotic systems, his research focuses on the longstanding goal of artificial intelligence to design machines that can extrapolate experience across environments and tasks. He obtained his PhD in Computer Science from ETH Zurich and was awarded with the ETH medal for an outstanding doctoral thesis. Before that, he graduated with a BSc and MSc in Mathematics from ETH Zurich and a BSc in Economics and Finance from the University of London. During his studies, he held scholarships from the Swiss and German National Merit Foundation. In 2019, he won the best paper award at the International Conference of Machine Learning (ICML) and in 2020, he was the lead organizer of the real-robot-challenge.com, a robotics challenge in the cloud.</p>"
+abstract: tba
+photo: /assets/img/bauer.jpg
+start: 2023-06-08T15:30:00.00+01:00
+end: 2023-06-08T16:30:00.00+01:00
+zoomroom: tba
+zoompassword: ai4science
+youtube: .
+slides: .
+---

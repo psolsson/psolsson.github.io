@@ -1,0 +1,16 @@
+---
+layout: event
+speaker: "Mohammed AlQuraishi (Columbia University)"
+title: tba
+bio: "<p>Mohammed AlQuraishi is an Assistant Professor in the Department of Systems Biology and a member of Columbia’s Program for Mathematical Genomics, where he works at the intersection of machine learning, biophysics, and systems biology. The AlQuraishi Lab focuses on two biological perspectives: the molecular and systems levels. On the molecular side, the lab develops machine learning models for predicting protein structure and function, protein-ligand interactions, and learned representations of proteins and proteomes. On the systems side, the lab applies these models in a proteome-wide fashion to investigate the organization, combinatorial logic, and computational paradigms of signal transduction networks, how these networks vary in human populations, and how they are dysregulated in human diseases, particularly cancer.</p>
+
+<p>Dr. AlQuraishi holds undergraduate degrees in biology, computer science, and mathematics. He earned an MS in statistics and a PhD in genetics from Stanford University. He subsequently joined the Systems Biology Department at Harvard Medical School as a Departmental Fellow and a Fellow in Systems Pharmacology, where he developed the first end-to-end differentiable model for learning protein structure from data. Prior to starting his academic career, Dr. AlQuraishi spent three years founding two startups in the mobile computing space. He joined the Columbia Faculty in 2020.</p>"
+abstract: tba
+photo: /assets/img/maq.jpg
+start: 2023-03-09T15:30:00.00+01:00
+end: 2023-03-09T16:30:00.00+01:00
+zoomroom: tba
+zoompassword: ai4science
+youtube: .
+slides: .
+---
