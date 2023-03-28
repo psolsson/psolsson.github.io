@@ -1,11 +1,11 @@
 ---
 layout: event
 speaker: "Rafael Gomez Bombarelli (Massachusetts Institute of Technology)"
-title: tba
+title: "End-to-end learning and auto-differentiation: forces, uncertainties, observables, trajectories and scales."
 bio: "<p>Rafael Gomez-Bombarelli (Rafa) is the Jeffrey Cheah Career Development Professor at MITs Department of Materials Science and Engineering. His works aims to fuse machine learning and atomistic simulations for designing materials and their transformations. By embedding domain expertise and experimental results into their models, alongside physics-based knowledge, the Learning Matter Lab designs materials than can be realized in the lab and scaled to practical applications. Together with experimental collaborators, they develop new practical materials such as heterogeneous thermal catalysts (zeolites), transition metal oxide electrocatalysts, therapeutic peptides, organic electronics for displays, or electrolytes for batteries.   
 </p>
 <p>Rafa received BS, MS, and PhD (2011) degrees in chemistry from Universidad de Salamanca (Spain), followed by postdoctoral work at Heriot-Watt (UK) and Harvard Universities, and a stint in industry at Kyulux North America. He has been awarded the Camille and Henry Dreyfus Foundation \"Machine Learning in the Chemical Sciences and Engineering Awards\" in 2021 and the Google Faculty Research Award in 2019. He was co-founder of Calculario a Harvard spinout company, was Chief Learning Officer of ZebiAI, a drug discovery startup acquired by Relay Therapeutics in 2022 and serves as consultant and scientific advisor to multiple startups</p>"
-abstract: tba
+abstract: "<p>Deep learning, and in general, differentiable programming allow expressing many scientific problems as end-to-end learning tasks while retaining some inductive bias. Common themes in scientific machine learning involve learning surrogate functions of expensive simulators, sampling complex distributions directly or time-propagation of known or unknown differential equation systems efficiently. </p><p>In this talk, we will analyze our recent work in applying deep learning surrogates and auto-differentiation in molecular simulations. In particular, we will explore active learning of machine learning potentials with differentiable uncertainty; the use of deep neural network generative models to learn reversible coarse-grained representations of atomic systems. Lastly, we will describe the application of differentiable simulations for learning interaction potentials from experimental data and for reaction path finding without prior knowledge of collective variables.</p> "
 photo: /assets/img/rafa.jpg
 start: 2023-04-13T15:30:00.00+01:00
 end: 2023-04-13T16:30:00.00+01:00
