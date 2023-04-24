@@ -2,7 +2,7 @@
 layout: event
 speaker: "Soledad Villar (Johns Hopkins University)"
 title: Exploiting symmetries in machine learning models
-bio: "<p>Soledad Villar is an assistant professor of applied mathematics and statistics at Johns Hopkins University. Currently she is a visiting researcher at Apple Research in Paris. She was born and raised in Montevideo, Uruguay.</p>"
+bio: "<p>Soledad Villar is an assistant professor of applied mathematics and statistics at Johns Hopkins University. Currently she is a visiting researcher at Apple Research in Paris. She was born and raised in Montevideo, Uruguay.</p> "
 abstract: "Any representation of data involves arbitrary investigator choices. Because those choices are external to the data-generating process, each choice leads to an exact symmetry, corresponding to the group of transformations that takes one possible representation to another. These are the passive symmetries; they include coordinate freedom, gauge symmetry and units covariance, all of which have led to important results in physics. Our goal is to understand the implications of passive symmetries for machine learning: Which passive symmetries play a role (e.g., permutation symmetry in graph neural networks)? What are dos and don'ts in machine learning practice? We assay conditions under which passive symmetries can be implemented as group equivariances. We also discuss links to causal modeling, and argue that the implementation of passive symmetries is particularly valuable when the goal of the learning problem is to generalize out of sample."
 photo: /assets/img/soledad.jpg
 start: 2023-05-11T15:30:00.00+01:00
