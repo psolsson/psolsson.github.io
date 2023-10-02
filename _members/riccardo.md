@@ -2,9 +2,9 @@
 name: Riccardo Beccaria 
 image: /assets/img/beccaria.jpg
 position: ERASMUS, MSc Student
-#current: # for alumni
+current: PhD student at University of Heidelberg, Germany. # for alumni
 start-date: 22-03-10
-#end-date: 23-30-09  
+end-date: 23-30-09  
 pronouns: he/him/his 
 email: beccaria@chalmers.se
 scholar_userid: 

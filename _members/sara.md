@@ -2,9 +2,9 @@
 name: Sara Arnesen
 image: /assets/img/saraarnesen.jpg
 position: MSc Student
-#current: # for alumni
+current: Graduate in Norges Bank # for alumni
 start-date: 23-01-16
-#end-date: 23-06-10  
+end-date: 23-06-10  
 pronouns: She / Her
 email: saraarnesen00@gmail.com
 scholar_userid: 

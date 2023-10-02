@@ -2,9 +2,9 @@
 name: David Nordström
 image: /assets/img/david.jpg
 position: M.Sc student
-#current: # for alumni
+current: Investment Analyst at NREP # for alumni
 start-date: 23-01-16
-#end-date: 23-06-10  
+end-date: 23-06-10  
 pronouns: He / Him
 email: david.nordstromm@gmail.com
 scholar_userid: 
