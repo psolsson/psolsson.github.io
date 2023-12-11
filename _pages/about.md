@@ -2,7 +2,16 @@
 layout: about
 title: about
 permalink: /
-description: We are a research group focusing on Artificial Intelligence and Machine Learning in the Natural Sciences (AIMLeNS), based at the <a href="http://dsai.se/">Data Science and AI division</a> of the Computer Science and Engineering department at Chalmers University of Technology, Gothenburg, Sweden. <br> In the AIMLeNS we are interested in problems at the interface of the natural sciences, machine learning, and artificial intelligence. Currently, we are especially interested in the following problems<br> <ol>  <li>Multi-modal machine learning for protein dynamics</li>  <li>Molecular property prediction </li> <li>Surrogate models for molecular dynamics and inverse design </li> <li> Equivariant neural networks for molecular applications </li> <li>Control of near-term quantum devices.</li></ol><br>  <br><br>We are generously funded by <br><a href="https://wasp-sweden.org"><img src="https://wasp-sweden.org/wp-content/themes/wasp/assets/img/logo.png"></a><a href="https://www.chalmers.se/en/centres/wacqt/"><img src="https://psolsson.github.io/assets/img/wacqt.png"></a><br>
+description: "<p>The Artificial Intelligence and Machine Learning in the Natural Sciences (AIMLeNS), based at the Data Science and AI division of the Computer Science and Engineering department at Chalmers University of Technology, Gothenburg, Sweden. <br> In the AIMLeNS lab, we are broadly interested in the interface of AI and Machine learning to the Natural Sciences.</p>
+
+Currently, our main research areas are: 
+<br> 
+<ol> 
+<li><b>Accelerating numerical simulations:</b> We are particularly interested in molecular simulations.</li> 
+<li><b>Inverse molecular design:</b> including design of small-molecule therapeutics, biologics, vaccines, and antibodies.</li> 
+</ol>
+<p>We're a tight-knit team of computer scientists, chemists, physicists, and mathematicians working collaboratively. Our focus is on developing practical methods that blend traditional disciplines with modern machine learning and AI technologies to effectively address large-scale problems.</p>
+We are generously funded by  <br><br>  <br><a href=\"https://wasp-sweden.org\"><img src=\"https://wasp-sweden.org/wp-content/themes/wasp/assets/img/logo.png\"></a><a href=\"https://www.chalmers.se/en/centres/wacqt/\"><img src=\"https://psolsson.github.io/assets/img/wacqt.png\"></a><br>"
 
 #profile:
 #  align: right
