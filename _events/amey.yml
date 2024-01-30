@@ -4,14 +4,11 @@ speaker: "Antonia Mey (University of Edinburgh)"
 title: "Proteins under the computational microscope: from machine learning to molecular simulations"
 bio:  "Dr Antonia Mey is a Chancellor's Fellow and Lecturer in the School of Chemistry at the University of Edinburgh. She obtained a BSc from Keele University in Physics with Chemistry and a PhD in Physics from the University of Nottingham working with Prof. Juan Garrahn on lattice protein models. After her PhD she joined Prof. Frank Noé group at the Free University in Berlin as a postdoc, where she developed new tools for the analysis of molecular simulations using Markov Models. In 2015, she moved to Edinburgh to work with Prof. Julien Michel on alchemical free energy simulation methods. In 2020, she started her independent career with a Christina Miller Fellowship in Edinburgh which was soon replaced by a Chancellor's Fellowship in 2021 which she currently holds. Her main research interests lie in the field of computational biophysics and molecular modelling using machine learning and biomolecular simulations to understand protein function."
 abstract: "Proteins are molecular machines that drive most biological processes. Understanding how proteins function and how they interact with other molecules is essential for us to comprehend life and also aids in regulating diseases. One way to regulate protein function is through small molecules that interact with proteins to inhibit their activity. However, discovering new molecules and efficient methods to predict how effectively they may bind to a target protein is a challenging task.
-
 Harnessing computational tools, using machine learning and molecular simulations, provides atomistic models for studying the interactions between a small molecule and a protein. To make computational models valuable, they need to have a predictive power such as proposing a ligand pose, typically done by docking algorithms, or a free energy of binding, often done through so called alchemical free energy calculations. In this talk, I will walk you through our process of creating new molecules from x-ray fragment hits [1] using a generative machine learning model looking at the SARS-CoV-2 main protease. I will also highlight two different ways in which we can assess the free energy of binding: through machine learning [2] and alchemical free energy calculations [3], where we will look at protein examples involved in cancers and antimicrobial resistance. 
-
 References:
 [1] Runcie, Mey, JCIM, 2023, 63, 19, 5996-6005 
 [2] Gorantla, Kubincova, Weisse, Mey, 2023, https://doi.org/10.1021/acs.jcim.3c01208
-[3] Mey et al. Living J. Comput. Mol. Sci. 2020, 2, 18378 
-"
+[3] Mey et al. Living J. Comput. Mol. Sci. 2020, 2, 18378"
 photo: "https://avatars.githubusercontent.com/u/3668316?v=4"
 start: 2024-03-14T15:00:00.00+01:00
 end: 2024-03-14T16:00:00.00+01:00
