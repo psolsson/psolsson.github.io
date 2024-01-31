@@ -92,6 +92,7 @@ fi
 git checkout -b $DEPLOY_BRANCH
 
 # Build site
+gem update bundler
 
 bundle update uri
 
