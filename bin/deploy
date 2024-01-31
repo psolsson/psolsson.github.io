@@ -93,10 +93,7 @@ git checkout -b $DEPLOY_BRANCH
 
 # Build site
 
-gem env
 
-
-bundle exec jekyll --version
 
 bundle exec jekyll build
 
