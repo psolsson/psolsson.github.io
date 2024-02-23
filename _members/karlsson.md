@@ -2,9 +2,9 @@
 name: Tobias Karlsson
 image: /assets/img/tobias.jpg
 position: PhD student
-#current: # for alumni
+current: working at Zenseact AB.
 start-date: 21-09-01
-#end-date: YY-MM-DD  
+end-date: 24-02-17  
 pronouns: 
 email: tobiaka@student.chalmers.se
 scholar_userid: 
