@@ -1,0 +1,14 @@
+---
+layout: event
+speaker: "Samuel Genheden (AstraZeneca)"
+title: "Exploiting artificial intelligence in synthesis planning"
+bio:  "Samuel Genheden leads the Deep Chemistry team in Discovery Sciences, AstraZeneca R&D. He received his PhD in theoretical chemistry from Lund University in 2012, having studied computational methods to estimate ligand-binding affinities. He continued with postdocs at the Universities of Southampton and Gothenburg, where he simulated membrane phenomena using multiscale approaches. He joined the Molecular AI department at AstraZeneca in 2020 and became team leader in 2022. The team's research focuses on the AiZynth platform for AI-assisted retrosynthesis planning. Samuel's interests lie in studying chemical and biological systems with computers and using these approaches to impact drug development. He is a keen advocate for open-source software."
+abstract: "Tools for synthesis planning is changing rapidly with the emergence of artificial intelligence (AI) models. AI-assisted synthesis planning tools can now perform retrosynthesis tasks, evaluate reactivity, or suggest reaction conditions to mention a few examples. In this talk, I will present current research from AstraZeneca R&D with a focus on retrosynthesis. I will provide an overview of our open-source retrosynthesis platform, AiZynthFinder, show how transformers can complement rule-based approaches, and detail some recent developments on constrained retrosynthesis. The talk will be concluded with a discussion on outstanding challenges for AI-assisted synthesis planning, and a peak into future research directions."
+photo: /assets/img/samuel.png
+zoomroom: 68911633027 
+zoompassword: ai4science
+start: 2024-09-12T15:00:00.00+01:00
+end: 2024-09-12T16:00:00.00+01:00
+youtube: .
+slides: .
+---

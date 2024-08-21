@@ -1,0 +1,16 @@
+---
+layout: event
+speaker: "Anne-Florence Bitbol (EPFL)"
+title: "tbc"
+bio:  "Anne-Florence Bitbol is an Assistant Professor at the Swiss Federal Institute of Technology in Lausanne (EPFL), where she leads the Laboratory of  computational Biology and Theoretical Biophysics, within the Institute of Bioengineering, also affiliated to the Swiss Institute of Bioinformatics. She studied physics at ENS Lyon, and obtained her PhD in 2012 at Université Paris-Diderot, advised by Jean-Baptiste Fournier. She then joined the Princeton Biophysics Theory group led by William Bialek, Curtis Callan and Ned Wingreen, as an HFSP Postdoctoral Fellow. In 2016 she became an independent CNRS researcher at Laboratoire Jean Perrin of Sorbonne Université in Paris, before joining EPFL in 2020.
+
+Anne-Florence is broadly interested in understanding biological phenomena through physical concepts and mathematical and computational tools. She investigates the impacts of optimization and historical contingency in biological systems, from the molecular to the population scales. She studies how the protein sequence-function relationship is affected by phylogeny and physical constraints, and she develops inference methods from protein sequences, e.g. to predict protein-protein interactions from sequences. These methods are based on information theory, statistical physics and machine learning. She also assesses how microbial population evolution is impacted by spatial structure and environment changes, with applications to antibiotic resistance evolution, and to the evolution of bacteria in the gut. She currently holds an ERC Starting Grant."
+abstract: "tbc"
+photo: /assets/img/bitbol.jpeg
+zoomroom: 64185306410 
+zoompassword: ai4science
+start: 2024-10-10T15:00:00.00+01:00
+end: 2024-10-10T16:00:00.00+01:00
+youtube: .
+slides: .
+---
