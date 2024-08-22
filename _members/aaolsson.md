@@ -1,7 +1,7 @@
 ---
 name: Simon Olsson
 image: /assets/img/simon.png
-position: Principal Investigator<br>Assistant Professor
+position: Principal Investigator<br>Associate Professor
 #current:
 pronouns: he/him/his
 email: simonols@chalmers.se
