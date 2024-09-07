@@ -1,7 +1,7 @@
 ---
 name: Selma Moqvist
 image: /assets/img/selma.jpg
-position: Research Project Student
+position: PhD Student
 #current: # for alumni
 start-date: 23-11-01
 #end-date: YY-MM-DD  
@@ -22,5 +22,5 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Selma is a research project student working on generalizing generative models across thermodynamic states together with Weilong."
+description: "Selma is working on generative models for inverse molecular design. Before starting as a PhD student, Selma was a research project student working on generalizing generative models across thermodynamic states together with Weilong."
 ---

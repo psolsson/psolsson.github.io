@@ -11,7 +11,7 @@ Currently, our main research areas are:
 <li><b>Inverse molecular design:</b> including design of small-molecule therapeutics, biologics, vaccines, and antibodies.</li> 
 </ol>
 <p>We're a tight-knit team of computer scientists, chemists, physicists, and mathematicians working collaboratively. Our focus is on developing practical methods that blend traditional disciplines with modern machine learning and AI technologies to effectively address large-scale problems.</p>
-We are generously funded by  <br><br>  <br><a href=\"https://wasp-sweden.org\"><img src=\"https://wasp-sweden.org/wp-content/themes/wasp/assets/img/logo.png\"></a><a href=\"https://www.chalmers.se/en/centres/wacqt/\"><img src=\"https://psolsson.github.io/assets/img/wacqt.png\"></a><br>"
+We are generously funded by  <br><br>  <br><a href=\"https://wasp-sweden.org\"><img src=\"https://wasp-sweden.org/wp-content/themes/wasp/assets/img/logo.png\"></a><a href=\"https://www.chalmers.se/en/centres/wacqt/\"><img src=\"https://psolsson.github.io/assets/img/wacqt.png\"></a><br><a href=\"https://kaw.wallenberg.org/en\"> <img src=\"https://kaw.wallenberg.org/themes/custom/kaw/images/logo-en.jpg\" width=50%></a> "
 
 #profile:
 #  align: right
