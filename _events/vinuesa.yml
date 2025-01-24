@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Ricardo Vinuesa (KTH)"
-title: ""
-bio:  ""
-abstract: ""
+title: "Explaining and controlling turbulent flows through deep learning"
+bio:  "Dr. Ricardo Vinuesa is an Associate Professor at the Department of Engineering Mechanics, KTH Royal Institute of Technology in Stockholm. He is also Lead Faculty at the KTH Climate Action Centre. He studied Mechanical Engineering at the Polytechnic University of Valencia (Spain), and he received his PhD in Mechanical and Aerospace Engineering from the Illinois Institute of Technology in Chicago. His research combines numerical simulations and data-driven methods to understand, control and predict complex wall-bounded turbulent flows, such as the boundary layers developing around wings and urban environments. Dr. Vinuesa has received, among others, an ERC Consolidator Grant, the TSFP Kasagi Award, the MST Emerging Leaders Award, the Goran Gustafsson Award for Young Researchers, the IIT Outstanding Young Alumnus Award, the SARES Young Researcher Award and he leads several large Horizon Europe projects. He is also a member of the Young Academy of Science of Spain."
+abstract: "In this presentation we first use a framework for deep-learning explainability to identify the most important Reynolds-stress (Q) events in a turbulent channel (simulated via DNS) and a turbulent boundary layer (obtained experimentally). This objective way to assess importance reveals that the most important Q events are not the ones with the highest Reynolds shear stress. This framework is also used to identify completely new coherent structures, and we find that the most important coherent regions in the flow only have an overlap of 70% with the classical Q events. In the second part of the presentation we use deep reinforcement learning (DRL) to discover completely new strategies of active flow control. We show that DRL applied to a blowing-and-suction scheme significantly outperforms the classical opposition control in a turbulent channel: while the former yields 30% drag reduction, the latter only 20%. We conclude that DRL has tremendous potential for drag reduction in a wide range of complex turbulent-flow configurations."
 photo: /assets/img/ricardo.jpg
 zoomroom: 69511234676
 zoompassword: ai4science

@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Tristan Bereau (Uni. Heidelberg)"
-title: ""
-bio:  ""
-abstract: ""
+title: "Free-energy Calculations from Neural Thermodynamic Integration"
+bio:  "Tristan Bereau is a computational physicist working at the interface between multiscale modeling and machine learning for soft matter and biomolecules. He earned a Ph.D. in Physics at Carnegie Mellon University in 2011. After a postdoc at the University of Basel, he led an Emmy Noether research group at the Max Planck Institute for Polymer Research. He then moved to the University of Amsterdam as an assistant professor in chemistry and computer science, followed by a role in Industry. Tristan serves on the editorial boards of the journals Machine Learning: Science & Technnology and Computational Science and Engineering. He is currently a professor at the Institute for Theoretical Physics at the University of Heidelberg."
+abstract: "Thermodynamic integration (TI) offers a rigorous method for estimating free-energy differences by integrating over a sequence of interpolating conformational ensembles. However, TI calculations are computationally expensive and typically limited to coupling a small number of degrees of freedom due to the need to sample numerous intermediate ensembles with sufficient conformational-space overlap. We propose to perform TI along an alchemical pathway represented by a trainable neural network, which we term Neural TI. Critically, we parametrize a time-dependent Hamiltonian interpolating between the interacting and non-interacting systems, and optimize its gradient using a denoising-diffusion objective. The ability of the resulting energy-based diffusion model to sample all intermediate ensembles allows us to perform TI from a single reference calculation. We apply our method to Lennard-Jones fluids, where we report accurate calculations of the excess chemical potential, demonstrating that Neural TI is capable of coupling hundreds of degrees of freedom at once. Extensions to solvation free energies for atomistic systems will be discussed."
 photo: /assets/img/tristan.jpg
 zoomroom: 64900051602 
 zoompassword: ai4science
