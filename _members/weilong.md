@@ -1,10 +1,10 @@
 ---
 name: Weilong Chen
 image: /assets/img/weilong.png
-position: Research Project Student
-#current: # for alumni
+position: Research Project Student and MSc Student
+current: intern at DP Technology, then PhD student at TU Munich.
 start-date: 23-11-01
-#end-date: YY-MM-DD  
+end-date: 24-06-01  
 pronouns: 
 email: weilong@student.chalmers.se
 scholar_userid: 
@@ -22,5 +22,5 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Weilong is a research project student working on generalizing generative models across thermodynamic states together with Selma."
+description: "Weilong was a research project student working on generalizing generative models across thermodynamic states together with Selma."
 ---
