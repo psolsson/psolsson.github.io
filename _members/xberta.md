@@ -1,7 +1,7 @@
 ---
 name: Berta
 image: /assets/img/berta.jpg
-position:
+position: Senior Assertive Vocalization Officer
 #current: # for alumni
 start-date: 22-01-14
 #end-date: YY-MM-DD  
@@ -22,5 +22,5 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Berta's research focuses on branch chewing methodology, and  squirrel chasing strategies."
+description: ""
 ---
