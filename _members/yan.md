@@ -22,5 +22,5 @@ strava_userid:
 keybase_username:
 gitlab_username:
 dblp_url:
-description: "Yan is a fourth-year Ph.D. student at the School of Mathematical Sciences, Tongji University, Shanghai, China, where I am advised by Prof. Hao Wu. Yan is working on neural ratio estimation for path-reweighing of molecular dynamics."
+description: "Yan is a fourth-year Ph.D. student at the School of Mathematical Sciences, Tongji University, Shanghai, China, where she is advised by Prof. Hao Wu. Yan is working on neural ratio estimation for path-reweighing of molecular dynamics."
 ---
