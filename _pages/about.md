@@ -17,7 +17,8 @@ AIMLeNS May 2024.
 </p>
 <br>
 
-We are generously funded by <br><a href=\"https://wasp-sweden.org\"><img src=\"https://wasp-sweden.org/wp-content/themes/wasp/assets/img/logo.png\"></a><a href=\"https://www.chalmers.se/en/centres/wacqt/\"><img src=\"https://psolsson.github.io/assets/img/wacqt.png\" width=50%></a><br><a href=\"https://kaw.wallenberg.org/en\"> <img src=\"https://kaw.wallenberg.org/themes/custom/kaw/images/logo-en.jpg\" width=50%></a> "
+We are currently funded generously by: <ul> <li><a href=\"https://kaw.wallenberg.org/en\">Knut and Alice Wallenberg foundation project grant</a></li> <li><a href=\"https://wasp-sweden.org/\">Wallenberg Autonomous Systems Program (WASP)</a></li> <li> <a href=\"https://www.scilifelab.se/data-driven/\"> Data-Driven Life Sciences (DDLS)</a></li> <li><a href=\"https://www.chalmers.se/en/centres/wacqt/\"> Wallenberg Centre for Quantum Technology (WACQT)</a></li> <li><a href=\"https://www.astrazeneca.com/\"> AstraZeneca AB</a></li> </ul>
+"
 
 #profile:
 #  align: right
