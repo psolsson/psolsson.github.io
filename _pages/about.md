@@ -12,6 +12,10 @@ Currently, our main research areas are:
 <p>We're a tight-knit team of computer scientists, chemists, physicists, and mathematicians working collaboratively. Our focus is on developing practical methods that blend traditional disciplines with modern machine learning and AI technologies to effectively address large-scale problems.</p>
 
 <p>
+<img src=\"https://psolsson.github.io/assets/img/group2025.jpg\" width=45%><br>
+AIMLeNS June 2025.
+</p>
+<p>
 <img src=\"https://psolsson.github.io/assets/img/group_photo.jpg\" width=45%><br>
 AIMLeNS May 2024.
 </p>

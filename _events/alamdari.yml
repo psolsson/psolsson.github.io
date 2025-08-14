@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Sarah Alamdari (Microsoft Research)"
-title: "tbc"
-bio:  "tbc"
-abstract: "tbc"
+title: "Generative Sequence-Based Approaches to Protein Design"
+bio:  "Sarah Alamdari is currently a Senior Applied Scientist at Microsoft Research New England, in the Biomedical Machine Learning Group. Here, she uses artificial intelligence to design new proteins, with the goal of advancing our understanding biology. Her recent work has focused on developing new protein language models, employing machine learning techniques on protein sequence datasets. Previously, she completed her PhD in Chemical Engineering at the University of Washington as an NSF graduate research fellow where she applied and developed molecular dynamic frameworks to study the behavior of biomolecules at complex interfaces. "
+abstract: "<p>Engineered proteins play increasingly essential roles in applications spanning pharmaceuticals, molecular tools, synthetic biology, and more. Deep generative models present an opportunity to accelerate protein engineering for therapeutic and biological applications. Recent advances in protein language models, has facilitated more controllable and flexible approaches to protein design.</p>  <p>In this talk I will cover our recent work in developing these general-purpose protein language models and exploring their capabilities for functional protein design. First, we will discuss a general-purpose diffusion framework, EvoDiff, that combines evolutionary-scale data with the distinct conditioning capabilities of diffusion models for controllable protein design. Next, we introduce an extension of this work titled Dayhoff, a generative model of proteins that combines single sequences and sequence alignments into one autoregressive model via long context lengths. In this work, we explore how model size, data quality, and diversity impact gains in protein expression. We envision that these modeling frameworks will enable new capabilities in protein engineering towards programmable, functional design.</p>"
 photo: /assets/img/alamdari.png
 zoomroom: 64105962051
 zoompassword: ai4science
