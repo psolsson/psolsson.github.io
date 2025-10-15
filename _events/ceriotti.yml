@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Michele Ceriotti (EPFL)"
-title: "tbc"
+title: "Physically (un)inspired modeling: how much physics do we need to machine learn the quantum properties of materials?"
 bio:  "tbc"
-abstract: "tbc"
+abstract: "Machine-learning techniques are often applied to perform 'end-to-end' predictions, making black-box estimates of a property of interest using only a coarse description of the corresponding inputs. In contrast, atomic-scale modeling of matter is most useful when it allows one to gather a mechanistic insight into the microscopic processes that underlie the behavior of molecules and materials. In this talk I will critically discuss how, and to which extent, physical-chemical ideas can and should be integrated into a machine-learning framework aimed at simulating matter at the atomic scale. I will discuss how physical priors, such as smoothness or symmetry of the structure-property relations, are used to inform the mathematical structure of a generic ML approximation - an approach that has become ubiquitous in the field. I will also discuss the emergence of unconstrained models that can directly learn physical constraints from large amounts of data, and that can outperform in speed and accuracy models that enforce physical constraints - showing however that care should be applied to use these models safely, so that the lack of built-in physics does not result into unphysical results. I will present examples relying on PET-MAD, a lightweight unconstrained model that achieves competitive accuracy across the periodic table despite being trained on a relatively small dataset, and that incorporates many advanced capabilities such as uncertainty quantification and direct force estimation."
 photo: /assets/img/michele.jpg
 zoomroom: 66537016273  
 zoompassword: ai4science
