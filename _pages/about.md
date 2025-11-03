@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: "<p>The Artificial Intelligence and Machine Learning in the Natural Sciences (AIMLeNS), based at the Data Science and AI division of the Computer Science and Engineering department at Chalmers University of Technology, Gothenburg, Sweden. <br> In the AIMLeNS lab, we are broadly interested in the interface of AI and Machine learning to the Natural Sciences.</p>
+description: "<meta name=\"description\" content=\"Research group at Chalmers University developing machine learning models to accelerate molecular simulations, molecular dynamics, vaccine design, drug design and materials design. Lead by Simon Olsson, pioneer in AI for Molecular Simulation.\">
+<p>The Artificial Intelligence and Machine Learning in the Natural Sciences (AIMLeNS), based at the Data Science and AI division of the Computer Science and Engineering department at Chalmers University of Technology, Gothenburg, Sweden. <br> In the AIMLeNS lab, we are broadly interested in the interface of AI and Machine learning to the Natural Sciences. </p>
 Currently, our main research areas are: 
 <br> 
 <ol> 
