@@ -7,11 +7,10 @@ first_name: Simon
 middle_name: 
 last_name: Olsson
 email: simonols@chalmers.se
-description: > 
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description:  
+  Research group at Chalmers University developing machine learning models to accelerate molecular simulations, molecular dynamics, vaccine design, drug design and materials design. Lead by Simon Olsson, pioneer in AI for Molecular Simulation.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  AI4Science, AI for Science, AI for Molecular Simulation, AI for Molecular Design, AI for Drug-Design, AI for Materials
  
 
 icon: + # the emoji used as the favicon
