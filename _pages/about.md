@@ -6,8 +6,8 @@ description: "<p>The Artificial Intelligence and Machine Learning in the Natural
 Currently, our main research areas are: 
 <br> 
 <ol> 
-<li><b>Accelerating numerical simulations:</b> We are particularly interested in molecular simulations.</li> 
-<li><b>Inverse molecular design:</b> including design of small-molecule therapeutics, biologics, vaccines, and antibodies.</li> 
+<li><b>AI and molecular simulations:</b> We are particularly interested in GenAI surrogates to bridge to experimentally observable time-scales.</li> 
+<li><b>Generative AI in inverse molecular design:</b> including design of small-molecule therapeutics, biologics, vaccines, and antibodies.</li> 
 </ol>
 <p>We're a tight-knit team of computer scientists, chemists, physicists, and mathematicians working collaboratively. Our focus is on developing practical methods that blend traditional disciplines with modern machine learning and AI technologies to effectively address large-scale problems.</p>
 
