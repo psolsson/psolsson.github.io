@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Prashant Singh (Uppsala University)"
-title: "tbc"
-bio:  "tbc"
-abstract: "tbc"
+title: "Scalable Learning under Noise and Uncertainty"
+bio:  ""
+abstract: "Real-world data, particularly within scientific disciplines such as life sciences is often noisy, posing significant challenges for reliable machine learning. This talk formally introduces this ‘robust learning’ problem setting, presenting a Bayesian framework for training machine learning models that adapts automatically to varying noise levels in data. We will also approach another facet of noise, arising as prediction uncertainty from pre-trained models. We will characterize the nature of uncertainty structures within data and models, and motivate a principled uncertainty quantification pipeline."
 photo: /assets/img/prashant.jpg
 zoomroom: 67897117671  
 zoompassword: ai4science
