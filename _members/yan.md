@@ -4,7 +4,7 @@ image: /assets/img/yan.jpg
 position: Visiting PhD student
 #current: # for alumni
 start-date: 2025-03-16
-end-date: #2025-09-30
+end-date: 2025-09-30
 pronouns:
 email: wangyan_vicky@tongji.edu.cn
 scholar_userid:
