@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>AI and Machine Learning in the Natural Sciences | AI4ScienceSeminar</title>
+<meta name="description" content="Research group at Chalmers University developing machine learning models to accelerate molecular simulations, molecular dynamics, vaccine design, drug design and materials design. Lead by Simon Olsson, pioneer in AI for Molecular Simulation.">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting 
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+-->
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>+</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/AI4ScienceSeminar">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="//">
+       AI and Machine Learning in the Natural Sciences
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/AI4ScienceSeminar">
+                AI4ScienceSeminar
+                
+                <span class="sr-only">(current)</span>
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/team">
+                team
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <h1>Chalmers AI4Science Seminar</h1><br>
+<p class="text-justify">Advances in machine learning and AI systems are increasingly influencing how we approach the
+    quantitative sciences, including physics, chemistry, and biology. These opportunities include having machines learn
+    new representations of interactions between particles, how matter transforms in reactions, help us decide what
+    experiment to conduct next or detect emerging phenomena. Sparse data situations remain a significant hurdle in many
+    sciences or situations where common data assumptions do not hold. Consequently, it remains critical to ground our
+    efforts in the millennia of scientific insights embodied in the literature to avoid, in the best case, having
+    machines relearn what we already know. The Chalmers AI4Science is a monthly seminar where we invite early-career
+    researchers to present their work at the interface of machine learning, artificial intelligence, and a scientific
+    discipline. This seminar series aims to provide an international platform at Chalmers for discussions about these
+    topics and strengthen interdisciplinary research involving machine learning and AI at Chalmers. The Chalmers
+    AI4Science seminar is organized by Simon Olsson and Rocío Mercado.
+</p>
+<hr>
+<p style="text-justify">
+    <b>Subscribe to our mailing list for reminders</b>
+<form method="post" action="https://ui.ungpd.com/Api/Subscriptions/8c7b6b76-904c-48ae-bdce-93708ea242d9">
+    <input type="hidden" name="ListIds" value="b11a4e58-2644-44f1-950e-95c390c33206"
+        id="listIdb11a4e58-2644-44f1-950e-95c390c33206"> <input type="hidden" name="SubscriptionConfirmedUrl"
+        value="https://psolsson.github.io/AI4ScienceSeminar">
+    <input type="hidden" name="SubscriptionFailedUrl" value="https://psolsson.github.io/AI4ScienceSeminar">
+    <input type="hidden" name="DoubleOptIn[Issue][IssueId]" value="1e44ba42-4cf5-415f-8d9f-5eeebbb8f610">
+    <input type="hidden" name="DoubleOptIn[EmailSentUrl]" value="https://psolsson.github.io/AI4ScienceSeminar">
+    <input type="hidden" name="ConfirmationIssue[IssueId]" value="a7d813a1-8bdb-447d-a05e-67b254c26ac2">
+    <label for="contactEmail">E-mail:</label> <input type="email" name="Contact[Email]" id="contactEmail"
+        required /><br />
+    <label for="contactName">Last name:</label> <input type="text" name="Contact[Name]" id="contactName"
+        required /><br />
+    <label for="contactFirstName">First name:</label> <input type="text" name="Contact[FirstName]" id="contactFirstName"
+        required /><br />
+    <label for="contactConsentText"><input type="checkbox" required name="ConsentText" id="contactConsentText"
+            value="I want to get relevant information from Chalmers University of Technology AB to my inbox. Chalmers University of Technology AB will not share or sell my personal information. I can unsubscribe at any time. " />
+        I want to get relevant information from Chalmers University of Technology AB to my inbox. Chalmers University of
+        Technology AB will not share or sell my personal information. I can unsubscribe at any time.</label><br />
+    <input type="submit" value="Subscribe">
+</form>
+</p>
+<hr>
+<p class="text-justify"><a href="/assets/calendar/Chalmers_ai4sci_seminar.ics">Download iCalendar</a>
+</p>
+<br>
+<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+
+
+<div id="Brian Trippe (Stanford University)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/trippe.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         9 April, 2026 15:00 (local Swedish time)<br>
+        <h2>tbc</h2><br>
+        <strong>Brian Trippe (Stanford University)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>tbc</p>
+
+        </p>
+        <p class="text-justify"><p>tbc</p>
+
+        </p>
+        <br><a href="https://chalmers.zoom.us/j/65703862323">Connect via Zoom</a> password:
+        ai4science
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Janine George (BAM)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/george.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         7 May, 2026 15:00 (local Swedish time)<br>
+        <h2>TBC</h2><br>
+        <strong>Janine George (BAM)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>tbc</p>
+
+        </p>
+        <p class="text-justify"><p>TBC</p>
+
+        </p>
+        <br><a href="https://chalmers.zoom.us/j/64782018144">Connect via Zoom</a> password:
+        ai4science
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Sereina Riniker (ETH Zurich)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/riniker.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        11 June, 2026 15:00 (local Swedish time)<br>
+        <h2>TBC</h2><br>
+        <strong>Sereina Riniker (ETH Zurich)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>TBC</p>
+
+        </p>
+        <p class="text-justify"><p>TBC</p>
+
+        </p>
+        <br><a href="https://chalmers.zoom.us/j/64260667753">Connect via Zoom</a> password:
+        ai4science
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<hr>
+<h2>Previous talks:</h2>
+
+
+<div id="Julija Zavadlav (TUM)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/zavadlav.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        12 June, 2025 15:00 (local Swedish time)<br>
+        <h2>Multiscale Modeling with Machine Learning Potentials</h2><br>
+        <strong>Julija Zavadlav (TUM)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Multiscale modeling is essential for understanding complex phenomena in fields ranging from life sciences to materials engineering. A prominent research area is the development of machine learning potentials (MLPs), particularly those based on Graph Neural Networks (GNNs), which have emerged as a powerful tool for bridging the gap between quantum-mechanical accuracy and classical molecular dynamics efficiency. In this presentation, I will showcase the significant achievements of both atomistic and coarse-grained MLPs in effectively capturing many-body interactions. I will address the current challenges of MLP development, including the broad and accurate training dataset generation, capturing long-range interactions, and numerical stability. To address these challenges, we propose a range of innovative strategies that encompass novel training objectives, the synergistic integration of diverse data sources, physics-based GNN architectures, and advanced Bayesian methods for uncertainty quantification. Through insightful case studies of various molecular systems, I will demonstrate the practical effectiveness and versatility of our approaches. Lastly, I will introduce our software platform, chemtrain, designed to streamline the training of machine learning potentials with customizable routines and advanced training algorithms.</p>
+
+        </p>
+        <p class="text-justify"><p>Prof. Zavadlav obtained her Ph.D. in physics at the University of Ljubljana in 2015. She joined ETH Zurich in 2016 for her postdoc and received an ETH Postdoctoral Fellowship award a year later. In 2019, she was appointed as Assistant Professor for Multiscale Modeling of Fluid Materials at the Technical University of Munich. She was awarded with the ERC starting grant in 2022. Her research area is a combination of molecular modeling, multiscale simulations, and machine learning applied to complex phenomena ranging from life sciences to engineering.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=y_7aDR3GQGE">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Ricardo Vinuesa (KTH)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/ricardo.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        13 March, 2025 15:00 (local Swedish time)<br>
+        <h2>Explaining and controlling turbulent flows through deep learning</h2><br>
+        <strong>Ricardo Vinuesa (KTH)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>In this presentation we first use a framework for deep-learning explainability to identify the most important Reynolds-stress (Q) events in a turbulent channel (simulated via DNS) and a turbulent boundary layer (obtained experimentally). This objective way to assess importance reveals that the most important Q events are not the ones with the highest Reynolds shear stress. This framework is also used to identify completely new coherent structures, and we find that the most important coherent regions in the flow only have an overlap of 70% with the classical Q events. In the second part of the presentation we use deep reinforcement learning (DRL) to discover completely new strategies of active flow control. We show that DRL applied to a blowing-and-suction scheme significantly outperforms the classical opposition control in a turbulent channel: while the former yields 30% drag reduction, the latter only 20%. We conclude that DRL has tremendous potential for drag reduction in a wide range of complex turbulent-flow configurations.</p>
+
+        </p>
+        <p class="text-justify"><p>Dr. Ricardo Vinuesa is an Associate Professor at the Department of Engineering Mechanics, KTH Royal Institute of Technology in Stockholm. He is also Lead Faculty at the KTH Climate Action Centre. He studied Mechanical Engineering at the Polytechnic University of Valencia (Spain), and he received his PhD in Mechanical and Aerospace Engineering from the Illinois Institute of Technology in Chicago. His research combines numerical simulations and data-driven methods to understand, control and predict complex wall-bounded turbulent flows, such as the boundary layers developing around wings and urban environments. Dr. Vinuesa has received, among others, an ERC Consolidator Grant, the TSFP Kasagi Award, the MST Emerging Leaders Award, the Goran Gustafsson Award for Young Researchers, the IIT Outstanding Young Alumnus Award, the SARES Young Researcher Award and he leads several large Horizon Europe projects. He is also a member of the Young Academy of Science of Spain.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=Efn7sJNVwO0">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Tess E. Smidt (Massachusetts Institute of Technology)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://blondegeek.github.io/tess_smidt_headshot.jpeg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         8 December, 2022 15:30 (local Swedish time)<br>
+        <h2>Unexpected Lessons from Neural Networks Built with Symmetry for Physical Systems</h2><br>
+        <strong>Tess E. Smidt (Massachusetts Institute of Technology)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Atomic systems (molecules, crystals, proteins, etc.) are naturally represented by a set of coordinates in 3D space labeled by atom type. This is a challenging representation to use for machine learning because the coordinates are sensitive to 3D rotations, translations, and inversions (the symmetries of 3D Euclidean space). In this talk I’ll give an overview of Euclidean invariance and equivariance in machine learning for atomic systems. Then, I’ll share some recent applications of these methods on a variety of atomistic modeling tasks (ab initio molecular dynamics, prediction of crystal properties, and scaling of electron density predictions). Finally, I’ll explore open questions in expressivity, data-efficiency, and trainability of methods leveraging invariance and equivariance.</p>
+
+        </p>
+        <p class="text-justify"><p>Tess Smidt is an Assistant Professor of Electrical Engineering and Computer Science at MIT. Tess earned her SB in Physics from MIT in 2012 and her PhD in Physics from the University of California, Berkeley in 2018. Her research focuses on machine learning that incorporates physical and geometric constraints, with applications to materials design. Prior to joining the MIT EECS faculty, she was the 2018 Alvarez Postdoctoral Fellow in Computing Sciences at Lawrence Berkeley National Laboratory and a Software Engineering Intern on the Google Accelerated Sciences team where she developed Euclidean symmetry equivariant neural networks which naturally handle 3D geometry and geometric tensor data.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=O6eqvb5Sw3o">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Soledad Villar (Johns Hopkins University)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/soledad.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        11 May, 2023 15:30 (local Swedish time)<br>
+        <h2>Exploiting symmetries in machine learning models</h2><br>
+        <strong>Soledad Villar (Johns Hopkins University)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Any representation of data involves arbitrary investigator choices. Because those choices are external to the data-generating process, each choice leads to an exact symmetry, corresponding to the group of transformations that takes one possible representation to another. These are the passive symmetries; they include coordinate freedom, gauge symmetry and units covariance, all of which have led to important results in physics. Our goal is to understand the implications of passive symmetries for machine learning: Which passive symmetries play a role (e.g., permutation symmetry in graph neural networks)? What are dos and don’ts in machine learning practice? We assay conditions under which passive symmetries can be implemented as group equivariances. We also discuss links to causal modeling, and argue that the implementation of passive symmetries is particularly valuable when the goal of the learning problem is to generalize out of sample.</p>
+
+        </p>
+        <p class="text-justify"><p>Soledad Villar is an assistant professor of applied mathematics and statistics at Johns Hopkins University. Currently she is a visiting researcher at Apple Research in Paris. She was born and raised in Montevideo, Uruguay.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=x1Ac3Q8llAY">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Prashant Singh (Uppsala University)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/prashant.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        11 December, 2025 15:00 (local Swedish time)<br>
+        <h2>Scalable Learning under Noise and Uncertainty</h2><br>
+        <strong>Prashant Singh (Uppsala University)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Real-world data, particularly within scientific disciplines such as life sciences is often noisy, posing significant challenges for reliable machine learning. This talk formally introduces this ‘robust learning’ problem setting, presenting a Bayesian framework for training machine learning models that adapts automatically to varying noise levels in data. We will also approach another facet of noise, arising as prediction uncertainty from pre-trained models. We will characterize the nature of uncertainty structures within data and models, and motivate a principled uncertainty quantification pipeline.</p>
+
+        </p>
+        <p class="text-justify">
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Rianne van den Berg (Microsoft Research)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://www.microsoft.com/en-us/research/uploads/prod/2021/10/profile_photo-3.png" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        13 October, 2022 14:00 (local Swedish time)<br>
+        <h2>AI4Science at Microsoft Research</h2><br>
+        <strong>Rianne van den Berg (Microsoft Research)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>In July 2022 Microsoft <a href="https://www.microsoft.com/en-us/research/blog/ai4science-to-empower-the-fifth-paradigm-of-scientific-discovery/">announced</a> a new global team in Microsoft Research, spanning the UK, China and the Netherlands, to focus on AI for science. In September 2022 we announced that we have also opened a new lab in Berlin, Germany. In this talk I will first discuss the research areas that we are currently exploring in AI4Science at Microsoft Research in Cambridge (UK), Amsterdam and in our new lab in Berlin, covering topics such as drug discovery, material generation, neural PDE solvers, electronic structure theory and computational catalysis. Then I will dive a little deeper into our recent work on Clifford Neural layers for PDE modeling. The PDEs of many physical processes describe the evolution of scalar and vector fields. In order to take into account the correlation between these different fields and their internal components, we represent these fields as multivectors, which consist of scalar, vector, as well as higher-order components. Their algebraic properties, such as multiplication, addition and other arithmetic operations can be described by Clifford algebras, which we use to design Clifford convolutions and Clifford Fourier transforms. We empirically evaluate the benefit of Clifford neural layers by replacing convolution and Fourier operations in common neural PDE surrogates by their Clifford counterparts on two-dimensional Navier-Stokes and weather modeling tasks, as well as three-dimensional Maxwell equations. If time permits I will briefly cover very recent work on protein structure prediction and coarse graining molecular dynamics.</p>
+
+        </p>
+        <p class="text-justify"><p>Rianne is a Principal Researcher at Microsoft Research Amsterdam, where she works as part of the AI4Science team on the intersection of deep learning and computational chemistry. Her research has spanned a range of topics from generative modeling, variational inference, source compression, graph-structured learning to condensed matter physics. Before joining MSR she was a Research Scientist at Google Brain. she received her PhD in theoretical condensed-matter physics in 2016 at the University of Amsterdam, where she also worked as a postdoctoral researcher as part of the Amsterdam Machine Learning Lab (AMLAB). In 2019 she won the Faculty of Science Lecturer of the Year award at the University of Amsterdam for teaching a machine learning course in the master of AI.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=3TahzZTJiK0">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Raquel Rodriguez Perez (Novartis)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/raquel.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         9 February, 2023 15:30 (local Swedish time)<br>
+        <h2>Can machine learning replace ADME experiments in drug discovery?</h2><br>
+        <strong>Raquel Rodriguez Perez (Novartis)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Absorption, distribution, metabolism, and excretion (ADME) properties play an important role in the success of drug candidates. Unfavorable pharmacokinetics (PK) can prevent that compounds progress in drug development and early ADME/PK properties’ screening aims at reducing the number of molecules failing in the development process. This talk will focus on how to use machine learning to leverage historical ADME/PK data and make predictions for new compounds. Machine learning models developed for PK property predictions will be presented, as well as some of their applications at NIBR. Such models are applicable to large libraries, virtual compounds, and generative chemistry workflows. Hence, predictions enable early informed decisions and compound prioritization, aiming at reducing late-stage attrition. However, using machine learning-based predictions to support decision-making in a drug discovery project involves important considerations. Current challenges and future directions for improving the use of ADMET models in industry will be discussed.</p>
+
+        </p>
+        <p class="text-justify"><p>Dr. Raquel Rodríguez-Pérez is a Principal Scientist at Novartis Institutes for Biomedical Research and works in the Modeling &amp; Simulation Data Science team in the Translational Medicine Department. She develops machine learning models to predict compound properties relevant in pharmacokinetics. She supports drug discovery teams with modeling and data science tools in order to make better and faster decision in lead optimization. Prior to working at Novartis, Raquel obtained her B.Sc. and M.Sc. degrees in Biomedical Engineering from the University of Barcelona and her PhD in Computational Life Sciences from the University of Bonn. She worked on data analysis for bioinformatics applications at the Institute for BioEngineering of Catalonia (IBEC) and did her thesis about machine learning models for interpretable compound activity predictions. Therefore, she has experience with the application of machine learning and deep learning methods in different life sciences problems. She was a Marie Curie fellow and worked at the Computational Chemistry - Data Science group in Boehringer Ingelheim, Germany. She has acted as a mentor of scientists at different careers levels both in academia and industry. Overall, her research interests include bio/cheminformatics, machine learning, and data science for biomedical applications.</p>
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Rafael Gomez Bombarelli (Massachusetts Institute of Technology)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/rafa.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        13 April, 2023 15:30 (local Swedish time)<br>
+        <h2>End-to-end learning and auto-differentiation: forces, uncertainties, observables, trajectories and scales.</h2><br>
+        <strong>Rafael Gomez Bombarelli (Massachusetts Institute of Technology)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Deep learning, and in general, differentiable programming allow expressing many scientific problems as end-to-end learning tasks while retaining some inductive bias. Common themes in scientific machine learning involve learning surrogate functions of expensive simulators, sampling complex distributions directly or time-propagation of known or unknown differential equation systems efficiently. </p>
+<p>In this talk, we will analyze our recent work in applying deep learning surrogates and auto-differentiation in molecular simulations. In particular, we will explore active learning of machine learning potentials with differentiable uncertainty; the use of deep neural network generative models to learn reversible coarse-grained representations of atomic systems. Lastly, we will describe the application of differentiable simulations for learning interaction potentials from experimental data and for reaction path finding without prior knowledge of collective variables.</p>
+
+        </p>
+        <p class="text-justify"><p>Rafael Gomez-Bombarelli (Rafa) is the Jeffrey Cheah Career Development Professor at MITs Department of Materials Science and Engineering. His works aims to fuse machine learning and atomistic simulations for designing materials and their transformations. By embedding domain expertise and experimental results into their models, alongside physics-based knowledge, the Learning Matter Lab designs materials than can be realized in the lab and scaled to practical applications. Together with experimental collaborators, they develop new practical materials such as heterogeneous thermal catalysts (zeolites), transition metal oxide electrocatalysts, therapeutic peptides, organic electronics for displays, or electrolytes for batteries. </p>
+<p>Rafa received BS, MS, and PhD (2011) degrees in chemistry from Universidad de Salamanca (Spain), followed by postdoctoral work at Heriot-Watt (UK) and Harvard Universities, and a stint in industry at Kyulux North America. He has been awarded the Camille and Henry Dreyfus Foundation "Machine Learning in the Chemical Sciences and Engineering Awards" in 2021 and the Google Faculty Research Award in 2019. He was co-founder of Calculario a Harvard spinout company, was Chief Learning Officer of ZebiAI, a drug discovery startup acquired by Relay Therapeutics in 2022 and serves as consultant and scientific advisor to multiple startups</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=adlor0d57DY">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Pratyush Tiwary (University of Maryland, College Park)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://ipst.umd.edu/sites/default/files/styles/square/public/team/tiwary.JPG" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        10 November, 2022 15:00 (local Swedish time)<br>
+        <h2>Artificial Chemical Intelligence: Integrated Theory, Simulations and AI for Enabling Molecular Discovery</h2><br>
+        <strong>Pratyush Tiwary (University of Maryland, College Park)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>The universality of thermodynamics and statistical mechanics has led to a language comprehensible to chemists, physicists, materials scientists, geologists &amp; others, enabling countless scientific discoveries in diverse fields. In the last decade, a new arguably common language that everyone seems to speak but no one quite fully understands, has emerged with the advent of artificial intelligence (AI). It is natural to ask if AI can be integrated with the various theoretical and simulation methods rooted in thermodynamics and statistical mechanics for discoveries that none of these could achieve individually. It is also natural to ask if chemists, who are not fundamentally trained in AI, should trust any of the results obtained using AI or even worse, theory or computer simulations that were guided by AI. In this seminar I will show how such an integration of disciplines can be attained, creating trustable, robust AI frameworks for use by chemists and physical scientists. I will talk about such methods developed by my group using and extending different flavors of AI [1-3]. I will demonstrate the methods on different problems involving protein kinases, riboswitches and amino acid nucleation [4-5], where we predict mechanisms at timescales much longer than milliseconds while keeping all-atom/femtosecond resolution, including the problem of recovering a Boltzmann weighted ensemble of conformations from AlphaFold2 [6]. I will conclude with an outlook for future challenges and opportunities, envisioning a new sub-discipline of “Artificial Chemical Intelligence” where chemistry (both theory and simulations) move hand-in-hand with AI to enable smart molecular discovery.<br /> [1] Wang, Ribeiro, Tiwary. Nature Comm 10, 3573 (2019).<br /> [2] Tsai, Kuo, Tiwary. Nature Comm 11, 5115 (2020). <br /> [3] Wang, Herron, Tiwary. Proc Natl Acad Sci 119, e2203656119 (2022). <br /> [4] Wang, Parmar, Schneekloth, Tiwary. ACS Central Science 8, 741 (2022). <br /> [5] Shekhar, Smith, Seeliger, Tiwary. Angewandte Chemie 61, e202200983 (2022). <br /> [6] Vani, Aranganathan, Tiwary. bioRxiv https://doi.org/10.1101/2022.05.25.493365<br /></p>
+
+        </p>
+        <p class="text-justify"><p>Pratyush Tiwary is an Associate Professor at the University of Maryland, College Park in the Department of Chemistry and Biochemistry and the Institute for Physical Science and Technology. He received his undergraduate degree in Metallurgical Engineering from IIT-BHU, PhD in Materials Science from Caltech followed by postdoctoral work at ETH Zurich and Columbia University. His work at the interface of molecular simulations, statistical mechanics and machine learning has been recognized through many awards including Sloan Research Fellowship in Chemistry, NSF CAREER award, NIH Maximizing Investigators’ Research Award and ACS OpenEye Outstanding Junior Faculty Award.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=voToylKMAUI">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Paris Perdikaris (University of Pennsylvania)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://directory.seas.upenn.edu/wp-content/uploads/2020/03/perdikaris-paris.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         8 September, 2022 15:30 (local Swedish time)<br>
+        <h2>Supervised and physics-informed learning in function spaces</h2><br>
+        <strong>Paris Perdikaris (University of Pennsylvania)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>While the great success of modern deep learning lies in its ability to approximate maps between finite-dimensional vector spaces, many tasks in science and engineering involve continuous measurements that are functional in nature. For example, in climate modeling one might wish to predict the pressure field over the earth from measurements of the surface air temperature field. The goal is then to learn an operator, between the space of temperature functions to the space of pressure functions. In recent years, operator learning techniques have emerged as a powerful tool for supervised learning in infinite-dimensional function spaces. In this talk we will provide an introduction to this topic, present a general approximation framework for operators, and demonstrate how one can construct deep learning models that can handle functional data. We will see how such tools can help us build neural ODE and PDE solvers that can be trained even in the absence of labeled data, and enable the fast prediction of continuous spatio-temporal fields up to three orders of magnitude faster compared to conventional numerical solvers. We will also discuss key open questions related to generalization, data-efficiency and inductive bias, the resolution of which is critical for the success of AI in science and engineering.</p>
+
+        </p>
+        <p class="text-justify"><p>Paris Perdikaris is an Assistant Professor in the Department of Mechanical Engineering and Applied Mechanics at the University of Pennsylvania. He received his PhD in Applied Mathematics at Brown University in 2015, and, prior to joining Penn in 2018, he was a postdoctoral researcher at the department of Mechanical Engineering at the Massachusetts Institute of Technology. His current research interests include physics-informed machine learning, uncertainty quantification, and engineering design optimization. His work and service has received several distinctions including the DOE Early Career Award (2018), the AFOSR Young Investigator Award (2019), the Ford Motor Company Award for Faculty Advising (2020), the SIAG/CSE Early Career Prize (2021), and the Scialog Fellowship (2021).</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=l9-E7xcKy-c">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Feliks Nüske (MPI Magdeburg)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://cdn.ungpd.com/8c7b6b76-904c-48ae-bdce-93708ea242d9/images/portrait_01_nuske_to_square_w_532_h_532_thumbnail.png" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        11 April, 2024 15:00 (local Swedish time)<br>
+        <h2>Kernel Methods for Koopman-based Modeling in Molecular Simulation</h2><br>
+        <strong>Feliks Nüske (MPI Magdeburg)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Koopman operator theory, and its main algorithm extended dynamic mode decomposition (EDMD), has emerged as a powerful modeling approach for complex dynamical systems arising in physics, chemistry, materials science, and engineering. The basic idea is to leverage existing simulation data to learn a linear model that allows to predict expectation values of observable functions at future times. Though the algorithm is conceptually quite simple, its underlying mathematical structure is very rich, and can be used for different purposes including control, coarse graining, or the identification of metastable states in complex molecules and materials.</p>
+<p>The success of the method depends critically on the choice of finite-dimensional subspace (called dictionary), which reflects a priori knowledge of the system. Here, kernel methods emerge as very useful, since they allow using a rich dictionary defined implicitly by the data. On the other hand, the application of kernel methods typically leads to large linear algebra problems that can be challenging to solve in practice.</p>
+<blockquote>
+  <p>In this talk, I will present recent results on the efficient use of kernel-based EDMD in the context of molecular simulation. I will first introduce the general Koopman framework and the associated variational formulation for metastable systems. Then, I will show how to introduce kernels in this context. Finally, I will show how low-rank approximations based on random Fourier features (RFFs) can be used to solve the resulting linear algebra problems efficiently.</p>
+</blockquote>
+
+        </p>
+        <p class="text-justify"><p>Dr. Feliks Nüske is a research group leader at the Max-Planck-Institute for Dynamics of Complex Technical Systems, Magdeburg, Germany. His research is on data-driven methods for modelling and simulation of molecular systems. Feliks received his Ph.D. in applied mathematics from Freie Universität Berlin in 2017. He then joined the Center for Theoretical Biological Physics at Rice University, U.S., for a postdoc. Before moving to his current position Dr. Nüske did a second postdoc in the Department of Mathematics at Paderborn University, Germany.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=7pU4JZOjeVA">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Kirill Neklyudov (MILA and Université de Montréal)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/kirill.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        10 April, 2025 15:00 (local Swedish time)<br>
+        <h2>Controlling Diffusion Models at Inference Time</h2><br>
+        <strong>Kirill Neklyudov (MILA and Université de Montréal)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Kirill Neklyudov is an Assistant Professor at the University of Montreal and a Core Academic Member at Mila - Quebec AI Institute developing novel methods in generative modelling, Monte Carlo methods, Optimal Transport, and applying those to solve fundamental problems in natural sciences, e.g. finding eigenstates of the many-body Schrodinger equation, simulating molecular dynamics, predicting the development of biological cells, conformational sampling, and protein folding. Previously, he did two postdocs: at Vector Institute with Alán Aspuru-Guzik and Alireza Makhzani; at the University of Amsterdam with Max Welling.</p>
+
+        </p>
+        <p class="text-justify"><p>The classical paradigm of generative modeling, as the problem of reproducing the training data distribution, becomes less relevant for many applications, including drug discovery and text-to-image generation. In practice, generative models demonstrate the best performance when tailored to specific needs at inference time. I will present two novel approaches that allow the control of the distributions of generated samples at inference time. Superposition of Diffusion Models (SuperDiff) combines pretrained diffusion models to sample from a mixture of distributions (logical OR) or to generate samples that are likely under all models (logical AND). SuperDiff leverages a new scalable Itô density estimator for the log-likelihood of the diffusion SDE, which incurs no additional overhead compared to the well-known Hutchinson’s estimator needed for divergence calculations. In the second half of the talk, I will present an efficient and principled method for sampling from a sequence of annealed, geometric-averaged, or product distributions derived from pretrained score-based models. We derive a weighted simulation scheme, which we call Feynman-Kac Correctors (FKCs), based on the celebrated Feynman-Kac formula by carefully accounting for terms in the appropriate partial differential equations (PDEs). Finally, I’ll demonstrate different applications of these methods, varying from the classical image generation tasks to molecule design and sampling from Boltzmann densities.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=6q7bLWOIraU">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Mohammad Lotfollahi (Wellcome Sanger Institute)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://lotfollahi.com/assets/images/lotfollahi-5329a941872f2ad7fdd3ffcce299468d.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        16 May, 2024 15:00 (local Swedish time)<br>
+        <h2>Generative machine learning to model cellular perturbations </h2><br>
+        <strong>Mohammad Lotfollahi (Wellcome Sanger Institute)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>The field of cellular biology has long sought to understand the intricate mechanisms that govern cellular responses to various perturbations, be they chemical, physical, or biological. Traditional experimental approaches, while invaluable, often face limitations in scalability and throughput, especially when exploring the vast combinatorial space of potential cellular states. Enter generative machine learning that has shown exceptional promise in modelling complex biological systems. This talk will highlight recent successes, address the challenges and limitations of current models, and discuss the future direction of this exciting interdisciplinary field. Through examples of practical applications, we will illustrate the transformative potential of generative ML in advancing our understanding of cellular perturbations and in shaping the future of biomedical research.</p>
+
+        </p>
+        <p class="text-justify"><p>Dr. Lotfollah recently completed his PhD in Computational Biology at the Technical University of Munich (TUM) and Helmholtz Munich under the supervision of Fabian Theis. A member of ELLIS, Dr. Lotfollahi is director of machine learning research at Relation Therapeutics. Simultaneously, Mo is a scientist at Helmholtz Munich and an incoming faculty member at the Wellcome Sanger Institute. Dr. Lotfollahi’s research is dedicated to developing AI/ML algorithms for biomedical data, with a particular focus on single-cell technologies for diagnostics, therapeutics, and drug discovery. Acknowledged for their contributions, Dr. Lotfollahi has received multiple awards, as evidenced by their exemplary achievements. Their work has been highlighted in various press and journals, showcasing the impact of their research. Dr. Lotfollahi has also garnered numerous fellowships, grants, and scholarships, including prestigious ones from Joachim Hertz, EMBL, and Meta. Beyond academic pursuits, Dr. Lotfollahi has served as a researcher, consultant, and advisor in biotechnology and ML/AI companies such as Cellarity, Meta AI, SANTA ANA Bio, and Relation Therapeutics.</p>
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Matteo Degiacomi (Durham University, United Kingdom)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/Matteo_Degiacomi.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         9 November, 2023 15:00 (local Swedish time)<br>
+        <h2>Generative Neural Networks vs Protein Conformational Spaces</h2><br>
+        <strong>Matteo Degiacomi (Durham University, United Kingdom)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Determining the different conformational states of a protein and the transition paths between them is key to fully understanding the relationship between biomolecular structure and function. I will discuss how a generative neural network (GNN) can learn a continuous conformational space representation from example structures produced by molecular dynamics simulations or experiments. I will then show how such representation, obtained via our freely available software molearn [1], can be leveraged on to predict putative protein transition states [2], or to generate conformations useful in the context of flexible protein-protein docking [3]. Finally, I will demonstrate that transfer learning is possible, i.e., a GNN can learn features common to any protein.</p>
+<p>[1] S.C. Musson and M. T. Degiacomi (2023). Molearn: a Python package streamlining the design of generative models of biomolecular dynamics. Journal of Open Source Software, 8(89), 5523 [2] V.K. Ramaswamy, S.C. Musson, C. Willcocks, M.T. Degiacomi (2021). Learning Protein Conformational Space with Convolutions and Latent Interpolations. Physical Review X, 11(1), 011052 [3] M.T. Degiacomi (2019). Coupling Molecular Dynamics and Deep Learning to Mine Protein Conformational Space. Structure, 27(6), 1034-1040.  </p>
+
+        </p>
+        <p class="text-justify"><p>Matteo obtained an MSc in Computer Science and a PhD in computational biophysics (2012) in the Swiss Federal Institute of Technology of Lausanne (EPFL). During his PhD studies he combined molecular dynamics simulations and global optimization algorithms to predict the assembly of large protein complexes. In 2013 he joined the research groups of Prof Justin Benesch and Prof Dame Carol Robinson FRS in the University of Oxford. His research, funded by a Swiss National Science Foundation Early Postdoc Mobility Fellowship, focused on the development of computational methods for the prediction of protein assembly guided by ion mobility, cross-linking, SAXS and electron microscopy data, as well as their application to the study of small Heat Shock Proteins and protein-lipid interactions. In 2017 he obtained an EPSRC Fellowship, allowing him to establish his independent research in Durham University, and in 2020 he was appointed Associate Professor in soft condensed matter physics. His current research revolves around the development of machine learning methods to sample protein conformational spaces. </p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=xGCRCe_3Qgw">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Mohammed AlQuraishi (Columbia University)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/maq.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         9 March, 2023 15:30 (local Swedish time)<br>
+        <h2>OpenFold: Lesson learned and insights gained from rebuilding and retraining AlphaFold2</h2><br>
+        <strong>Mohammed AlQuraishi (Columbia University)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>AlphaFold2 revolutionized structural biology by accurately predicting protein structures from sequence. Its implementation however (i) lacks the code and data required to train models for new tasks, such as predicting alternate protein conformations or antibody structures, (ii) is unoptimized for commercially available computing hardware, making large-scale prediction campaigns impractical, and (iii) remains poorly understood with respect to how training data and regimen influence accuracy. Here we report OpenFold, an optimized and trainable version of AlphaFold2. We train OpenFold from scratch and demonstrate that it fully reproduces AlphaFold2’s accuracy. By analyzing OpenFold training, we find new relationships between data size/diversity and prediction accuracy and gain insights into how OpenFold learns to fold proteins during its training process.</p>
+
+        </p>
+        <p class="text-justify"><p>Mohammed AlQuraishi is an Assistant Professor in the Department of Systems Biology and a member of Columbia's Program for Mathematical Genomics, where he works at the intersection of machine learning, biophysics, and systems biology. The AlQuraishi Lab focuses on two biological perspectives: the molecular and systems levels. On the molecular side, the lab develops machine learning models for predicting protein structure and function, protein-ligand interactions, and learned representations of proteins and proteomes. On the systems side, the lab applies these models in a proteome-wide fashion to investigate the organization, combinatorial logic, and computational paradigms of signal transduction networks, how these networks vary in human populations, and how they are dysregulated in human diseases, particularly cancer.</p>
+<p>Dr. AlQuraishi holds undergraduate degrees in biology, computer science, and mathematics. He earned an MS in statistics and a PhD in genetics from Stanford University. He subsequently joined the Systems Biology Department at Harvard Medical School as a Departmental Fellow and a Fellow in Systems Pharmacology, where he developed the first end-to-end differentiable model for learning protein structure from data. Prior to starting his academic career, Dr. AlQuraishi spent three years founding two startups in the mobile computing space. He joined the Columbia Faculty in 2020.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=gYjAvOfP1Sc">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Kevin Yang (Microsoft Research)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://www.microsoft.com/en-us/research/uploads/prod/2020/09/profile-centered.jpeg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        10 March, 2022 15:30 (local Swedish time)<br>
+        <h2>Multimodal Machine Learning for Protein Engineering</h2><br>
+        <strong>Kevin Yang (Microsoft Research)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Engineered proteins play increasingly essential roles in industries and applications spanning pharmaceuticals, agriculture, specialty chemicals, and fuel. Machine learning could enable an unprecedented level of control in protein engineering for therapeutic and industrial applications. Large self-supervised models pretrained on millions of protein sequences have recently gained popularity in generating embeddings of protein sequences for protein property prediction. However, protein datasets contain information in addition to sequence that can improve model performance. This talk will cover pretrained models that use both sequence and structural data, their application to predict which portions of proteins can be removed while retaining function, and a new set of protein fitness benchmarks to measure progress in pretrained models of proteins.</p>
+
+        </p>
+        <p class="text-justify"><p>Kevin Yang is a senior researcher at Microsoft Research in Cambridge, MA who works on problems at the intersection of machine learning and biology. He did his PhD at Caltech with Frances Arnold on applying machine learning to protein engineering. Before joining MSR, he was a machine learning scientist at Generate Biomedicines, where he used machine learning to optimize proteins. Before graduate school, Kevin taught math and physics for three years at a high school in Inglewood, California through Teach for America.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=6-QEbqbaaNQ">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Jon-Paul Janet  (AstraZeneca, Gothenburg)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/jp.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        14 September, 2023 15:00 (local Swedish time)<br>
+        <h2>Accelerating drug design with AI & simulation</h2><br>
+        <strong>Jon-Paul Janet  (AstraZeneca, Gothenburg)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>In the past few years, deep learning methods for molecular design have made the transition from theoretical research prototypes into practical and commercially important tools in use across the pharmaceutical industry. Here, I will present ReInvent, AstraZeneca’s open-source platform for reinforcement learning guided molecular optimization, focusing on the scientific developments behind it and the ever-increasing connection with physics-based molecular simulations. I will highlight some recent approaches to improve the sample efficiency of the reinforcement learning process, thereby allow for integration with more complex simulation workflows. Finally, I will briefly discuss methods for chemical synthesis planning, and how these various models can work together to power increasingly autonomous systems for drug discovery.</p>
+
+        </p>
+        <p class="text-justify"><p>Jon Paul Janet is currently Associate Principal Scientist in the Molecular AI group at AstraZenca in Gothenburg, Sweden. Previously, JP works on early stage drug discovery and has developed machine-learning augmented virtual design strategies for inorganic complexes. He received a Ph.D. in Chemical Engineering and Computational Science and Engineering from the Massachusetts Institute of Technology in 2019 following M.Sc. degrees in Scientific Computing and Applied Mathematics from the Technical University of Berlin and the Royal Institute of Technology in Stockholm both in 2015, as well as a B.Sc. in Chemical Engineering from the University of Cape Town in 2012.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=jHaqwmect8w">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Kjell Jorner (ETH Zürich)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/kjell.jpeg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        13 June, 2024 15:00 (local Swedish time)<br>
+        <h2>Simulations and machine learning for molecular design and reactivity</h2><br>
+        <strong>Kjell Jorner (ETH Zürich)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Machine learning represents an exciting opportunity to accelerate discovery in the chemical sciences, and to shorten the time from discovery to products. However, the available (experimental) data for chemistry is often limited, and it is not equally distributed in the vast ‘chemical space’. Our approach is try to bridge this gap by relying on a combination of machine learning and physical simulation. In the first part of the talk, I will describe our work in the field of molecular design for organic electronic materials. Many molecular design algorithms rely on machine learning models to predict the properties of a molecule for a certain application. Although ML models often work well on similar molecules as they were trained on, they often break down when generalizing to different parts of the chemical space. Generative models then abuse these weaknesses of the propery predictor and start generating false positives. We have therefore spent time to develop a series of very fast physics-based property predictors for important properties of organic electronic materials. These can then be coupled with high-throughput virtual screening or molecular design models to discovery new promising candidates. An alternative is to work in a constrained fragment space, which ensures that machine learning methods are sufficiently generalizable. We will give examples for such as fragment-constrained optimization of singlet fission materials using genetic algorithms which are steered by prediction uncertainty. In the second part of the talk, I will present our work in the area of reaction prediction, using a combination of quantum-chemical models and machine learning. Also here, we have developed fast physics-based property predictors for chemical reactivity that we use in generative models, including the first benchmark task for chemical reaction design. Using these simulations methods, we also generate large reactivity datasets on which deep learning models can be trained.</p>
+
+        </p>
+        <p class="text-justify"><p>Kjell Jorner is an Assistant Professor of Digital Chemistry at ETH Zurich since 2023. His work focuses on accelerating chemical discovery with digital tools, with a special emphasis on reactivity and catalysis. His group does interdisciplinary research, drawing from the fields of computational chemistry, cheminformatics and machine learning. Before joining ETH Zurich, he was a postdoctoral researcher with Alán Aspuru-Guzik (2021-2022) and at AstraZenecaUK (2018-2020). Kjell has a PhD from Uppsala University (2018) on computational physical organic chemistry for the photochemistry of aromatic compounds.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=y7Py22g3D4U">Video Recording (YouTube)</a>. <a href="/assets/slides/jorner-slides.pdf">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Kevin Jablonka (University of Jena, Germany)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/jablonka.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        14 December, 2023 15:00 (local Swedish time)<br>
+        <h2>Why machine learning can find a new material but not a needle in a haystack.</h2><br>
+        <strong>Kevin Jablonka (University of Jena, Germany)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>The space of possible materials is unimaginably large. To find our way in this space, having a map that can guide us would be nice. In this presentation, we show that machine learning can provide us with such a map [1]. We can use machine learning to encode patterns that are tacit or hidden in a large number of dimensions of this chemical space, and then use it to guide the design of materials. The simplest application of this navigation system is to predict properties that are hard to predict with conventional quantum chemistry or molecular simulation alone [2, 3]. Once we have this in place, we can use it to most efficiently gather information about structure-property-function relationships. A fundamental difficulty here is, however, that we often have to deal with multiple, often competing objectives. For instance, increasing the reactivity often decreases the selectivity. Interestingly, one can show that using a geometric construction, one can also effectively, and without bias, use machine learning to dramatically accelerate materials design and discovery in such a multiobjective design space [4].It is important to realize, however, that machine learning relies on data that a machine can use [5]. Toward this goal, we need to develop infrastructure to allow for the capture without overhead while providing chemists with tools that simplify their daily work [4, 5]. A challenge, however, is that data typically cannot be easily collected in this nice tabular firm. Recent advantages of applying large language models (LLMs) to chemistry indicate that they might be used to address this challenge. I will showcase how LLMs can autonomously use tools, leverage structured data as well as soft inductive biases, and, in this way, transform how we model chemistry. [6, 7].</p>
+<p> [1] Jablonka, K. M.; Ongari, D.; Moosavi, S. M.; Smit, B. Big-Data Science in Porous Materials: Materials Genomics and Machine Learning. Chem. Rev. 2020, 120 (16), 8066-8129. </p>
+<p>[2] Jablonka, K. M.; Ongari, D.; Moosavi, S. M.; Smit, B. Using Collective Knowledge to Assign Oxidation States of Metal Cations in Metal-Organic Frameworks. Nat. Chem. 2021, 13 (8), 771-777.</p>
+<p> [3] Jablonka, K. M.; Moosavi, S. M.; Asgari, M.; Ireland, C.; Patiny, L.; Smit, B. A Data-Driven Perspective on the Colours of Metal-Organic Frameworks. Chem. Sci. 2021, 12 (10), 3587-3598. </p>
+<p>[4] Jablonka, K. M.; Jothiappan, G. M.; Wang, S.; Smit, B.; Yoo, B. Bias Free Multiobjective Active Learning for Materials Design and Discovery. Nat Commun 2021, 12 (1), 2312. </p>
+<p>[5] Jablonka, K. M.; Patiny, L.; Smit, B. Making the collective knowledge of chemistry open and machine actionable, Nat. Chem. 2022. [6]Jablonka, K. M.; Ai, Q.; Al-Feghali, A.; Badhwar, S.; Bran, J. D. B. A. M.; Bringuier, S.; Brinson, L. C.; Choudhary, K.; Circi, D.; Cox, S.; de Jong, W. A.; Evans, M. L.; Gastellu, N.; Genzling, J.; Gil, M. V.; Gupta, A. K.; Hong, Z.; Imran, A.; Kruschwitz, S.; Labarre, A.; Lála, J.; Liu, T.; Ma, S.; Majumdar, S.; Merz, G. W.; Moitessier, N.; Moubarak, E.; Mouriño, B.; Pelkie, B.; Pieler, M.; Ramos, M. C.; Ranković, B.; Rodriques, S. G.; Sanders, J. N.; Schwaller, P.; Schwarting, M.; Shi, J.; Smit, B.; Smith, B. E.; Van Heck, J.; Völker, C.; Ward, L.; Warren, S.; Weiser, B.; Zhang, S.; Zhang, X.; Zia, G. A.; Scourtas, A.; Schmidt, K. J.; Foster, I.; White, A. D.; Blaiszik, B. 14 Examples of How LLMs Can Transform Materials Science and Chemistry: A Reflection on a Large Language Model Hackathon. arXiv June 9, 2023. https://doi.org/10.48550/arXiv.2306.06283. </p>
+<p>[7] Jablonka, K. M.; Schwaller, P.; Ortega-Guerrero, A.; Smit, B. Is GPT-3 All You Need for Low-Data Discovery in Chemistry? 2023. https://doi.org/10.26434/chemrxiv-2023-fw8n4. </p>
+
+        </p>
+        <p class="text-justify"><p>Kevin Jablonka obtained his bachelor's degree in chemistry at TU Munich. He joined EPFL for his master's studies (and an extended study degree in applied machine learning), after which he joined Berend Smit's group for a Ph.D. He now leads a research group at the Helmholtz Institute for Polymers in Energy Applications of the University of Jena and the Helmholtz Center Berlin. Kevin's research interests are in the digitization of chemistry. For this, he has been contributing to the cheminfo electronic lab notebook ecosystem. He also developed a toolbox for digital reticular chemistry. Using tools from this toolbox, he addressed questions from the atom to the pilot-plant scale. Kevin is also interested in using large language models in chemistry and co-leads the ChemNLP project (with support from OpenBioML.org and Stability.AI). </p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=91H07JIRqD8">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Samuel Genheden (AstraZeneca)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/samuel.png" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        12 September, 2024 15:00 (local Swedish time)<br>
+        <h2>Exploiting artificial intelligence in synthesis planning</h2><br>
+        <strong>Samuel Genheden (AstraZeneca)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Tools for synthesis planning is changing rapidly with the emergence of artificial intelligence (AI) models. AI-assisted synthesis planning tools can now perform retrosynthesis tasks, evaluate reactivity, or suggest reaction conditions to mention a few examples. In this talk, I will present current research from AstraZeneca R&amp;D with a focus on retrosynthesis. I will provide an overview of our open-source retrosynthesis platform, AiZynthFinder, show how transformers can complement rule-based approaches, and detail some recent developments on constrained retrosynthesis. The talk will be concluded with a discussion on outstanding challenges for AI-assisted synthesis planning, and a peak into future research directions.</p>
+
+        </p>
+        <p class="text-justify"><p>Samuel Genheden leads the Deep Chemistry team in Discovery Sciences, AstraZeneca R&amp;D. He received his PhD in theoretical chemistry from Lund University in 2012, having studied computational methods to estimate ligand-binding affinities. He continued with postdocs at the Universities of Southampton and Gothenburg, where he simulated membrane phenomena using multiscale approaches. He joined the Molecular AI department at AstraZeneca in 2020 and became team leader in 2022. The team’s research focuses on the AiZynth platform for AI-assisted retrosynthesis planning. Samuel’s interests lie in studying chemical and biological systems with computers and using these approaches to impact drug development. He is a keen advocate for open-source software.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=Byi5CzWXGEI">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Francesca Grisoni (Eidenhoven University of Technology)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://research.tue.nl/files-asset/173609561/thumbnail_Grisoni_Francesca_BMT_PO_AS_2560.jpg?w=200&h=200" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         9 June, 2022 14:00 (local Swedish time)<br>
+        <h2>De novo drug design with chemical language models</h2><br>
+        <strong>Francesca Grisoni (Eidenhoven University of Technology)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Artificial intelligence (AI) is fueling computer-aided drug discovery. Chemical language models (CLMs) constitute a recent addition to the medicinal chemist’s toolkit for AI-driven drug design. CLMs can be used to generate novel molecules in the form of strings (e.g., SMILES, SELFIES) without relying on human-engineered molecular assembly rules. By taking inspiration from natural language processing, CLMs have shown able to learn “syntax” rules for molecule generation, and to implicitly capture “semantic” molecular features, such as physicochemical properties, bioactivity, and chemical synthesizability. This talk will illustrate some successful applications of CLMs to design novel bioactive compounds from scratch in the context of drug discovery, at the interface between theory and wet-lab experiments. Moreover, the talk will provide a personal perspective on current limitations and future opportunities for AI in medicinal and organic chemistry, to accelerate molecule discovery and chemical space exploration.</p>
+
+        </p>
+        <p class="text-justify"><p>Francesca Grisoni is a tenure-track Assistant Professor at the Eindhoven University of Technology, where she leads the Molecular Machine Learning team. After receiving her PhD in 2016 at the University of Milano-Bicocca, with a dissertation on machine learning for (eco)toxicology, Francesca worked as a data scientist and as a biostatistical consultant for the pharmaceutical industry. Later, she joined the University of Milano-Bicocca (in 2017) and the ETH Zurich (in 2019) as a postdoctoral researcher, working on machine learning for drug discovery and molecular property prediction. Her current research focuses on developing novel chemistry-centered AI methods to augment human intelligence in drug discovery, at the interface between computation and wet-lab experiments.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=t-7_etI6j9s">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Evert van Nieuwenburg (NBI, University of Copenhagen)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://nbia.nbi.ku.dk/members/evert-van-nieuwenburg/NBIA_EverardPieterLVanNieuwenburg_2020__002_.pdf_-_Adobe_Acrobat_Pro.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        12 May, 2022 14:00 (local Swedish time)<br>
+        <h2>AI for Quantum Experiments</h2><br>
+        <strong>Evert van Nieuwenburg (NBI, University of Copenhagen)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>In this talk I aim to showcase how machine learning inspired optimisations can help with current state-of-the-art experiments. In particular, I will first consider the readout of semiconductor spin qubits using simple principal component analysis. I will then highlight a specifically fabricated semiconductor device with a 3x3 ‘pixel array’, and discuss the simultaneous tuning of those 9 gate voltages to construct a quantum point contact. And finally, I will move on to larger arrays of quantum dots and the detection of transitions between charge states (i.e. finding the facets of high-dimensional coulomb diamonds).</p>
+
+        </p>
+        <p class="text-justify"><p>Evert is a theoretical condensed matter physicist with a background in open systems, numerical simulations and many-body effects. He now also actively works on investigating how both condensed matter physics and machine learning can help each other.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=WvRNQOVCmJM">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Volker Deringer (Oxford University)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/deringer.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        12 February, 2026 15:00 (local Swedish time)<br>
+        <h2>Machine-learned interatomic potentials for materials chemistry</h2><br>
+        <strong>Volker Deringer (Oxford University)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>tbc</p>
+
+        </p>
+        <p class="text-justify"><p>tbc</p>
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Roberto Covino (Frankfurt)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/covino.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        14 November, 2024 15:00 (local Swedish time)<br>
+        <h2>Merging physics-based simulations and machine learning to predict rare molecular conformations and find them in experimental data.</h2><br>
+        <strong>Roberto Covino (Frankfurt)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Biomolecules are highly dynamic systems. They reorganize between a network of conformations connected by rare structural intermediates, which is referred to as their conformational ensemble. The ensemble, including the rare intermediate structures, determines biomolecular function in the cell. However, mapping biomolecular conformational ensembles is still challenging in computational and experimental approaches. Computer simulations are the modern manifestation of scientific theories and, merged with machine learning, can help us overcome challenges in the biomolecular sciences. In the first part of my talk, I will illustrate our work to integrate path sampling with machine learning to empower our ability to simulate rare conformational transitions. Our algorithm provides efficient sampling, mechanism, thermodynamic, and kinetic information of rare molecular events at a moderate computational cost. In the second part, I will discuss using simulation-based inference to identify biomolecular conformations in cryo-electron microscopy (cryo-EM) data. cryoEM is a powerful paradigm for characterizing protein conformational ensembles. However, even though the frozen sample contains information on the entire ensemble, accurately identifying rare or disordered molecular conformations depicted in a single cryoEM image is still challenging. We integrated physics-based simulations, Bayesian inference, and deep learning to develop the cryoEM simulation-based inference (cryoSBI) framework for inferring molecular conformations and their uncertainties from individual cryoEM images. We validated cryoSBI on synthetic and experimental data. Our approach paves the way to characterizing entire conformational ensembles from experimental data.</p>
+
+        </p>
+        <p class="text-justify"><p>Roberto Covino is W3 Professor of Computational Life Science at the Institute of Computer Science at Goethe University Frankfurt, and a Fellow at the Frankfurt Institute for Advanced Studies. His research uses theory, simulation, and machine learning to understand how biomolecular functions emerge from the interplay between structure, dynamics, and complexity. He focuses on understanding the mechanism of key events in proteins and cellular membranes. His research interests range from molecular biophysics to statistical modelling, machine learning, lipid and protein biochemistry. RC studied physics and theoretical physics at the University of Bologna and obtained his PhD in physics at the University of Trento. He then worked as post-doctoral scientistic at the Max Planck Institute of Biophysics. RC was appointed Professor of AI in Protein Science at Bayreuth University in 2023 and received the call to Goethe University in 2024.</p>
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Bingqing Cheng (Institute of Science and Technology Austria)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://ist.ac.at/assets/icp/bcheng_Wot7w.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        12 January, 2023 15:30 (local Swedish time)<br>
+        <h2>Ab initio thermodynamics</h2><br>
+        <strong>Bingqing Cheng (Institute of Science and Technology Austria)</strong><br>
+        <p class="text-justify"><b>Abstract:</b>
+
+        </p>
+        <p class="text-justify"><p>Prof. Bingqing Cheng moved to the Institute of Science and Technology (IST) Austria as a Tenure-Track Assistant Professor on September 2021. Before she was a Departmental Early Career Fellow in the Computer Laboratory, University of Cambridge (11/2020– 08/2021), and a Junior research fellow at Trinity College (03/2019-). She did a PhD (09/2014–02/2019) in Materials Science at École Polytechnique Fédérale de Lausanne (EPFL), supervised by Michele Ceriotti, a Master’s degree in The University of Hong Kong, and a joint Bachelor’s degree in The University of Hong Kong &amp; Shanghai Jiao Tong University.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=T6GJFrRNpzE">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Rose Cersonsky (University of Wisconsin-Madison)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/rose.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         8 May, 2025 15:00 (local Swedish time)<br>
+        <h2>How data-driven studies translate into chemical and physical principles</h2><br>
+        <strong>Rose Cersonsky (University of Wisconsin-Madison)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>In recent years, machine learning (ML) methods have transformed computational chemistry and materials research. In ML algorithms, we rely on machine-learning representations to serve as a ‘mathematical proxy’ for our underlying chemistry. Molecular featurization—how we transform atoms and molecules into mathematical signals appropriate for machine-learning thermodynamic quantities—has an important role in our ability to learn material properties and observable quantities.  There are many ways to encode raw chemical data, notably string-based representations such as SMILES or SELFIES, and the suitable choice largely depends on the problem at hand and the architecture of our models. However, in thermodynamic contexts, where the chemistry and connectivity remain largely unchanged, such as in molecular simulation, it is more typical to use configuration-dependent features, which transform molecular coordinates into a range of suitable numerical representations. In this talk, I will primarily focus on how we assess and interpret models built on such molecular representations, focusing on how to do so using shallow, simple machine-learning models. I’ll first start on the idea of thermodynamic fingerprints as order parameters for complex phenomena, contrasting technologies built through the machine-learning potentials community with traditional analyses, as well as extending these ideas into new methods for bottom-up coarse-graining. From here, I will focus on how to extract actionable chemical and physical principles from models built on chemical data, a task traditionally achieved through unsupervised analyses such as principal components analysis or t-stochastic neighborhood embeddings. However, these methods only ask, ‘What makes these data points similar?’ not ‘In what ways does my model see these points as similar?’ The latter question, particularly in the context of supervised ML models, is more powerful and informative for structure-property relationships. Our results show that this multi-objective framing, with its inherent interpretability, reveals underlying trends across many ML tasks, from materials classification to machine-learning potential building to non-linear regression tasks.</p>
+
+        </p>
+        <p class="text-justify"><p>Rose K. Cersonsky is the Michael and Virginia Conway Assistant Professor of Chemical and Biological Engineering at the University of Wisconsin-Madison. She received her Bachelor of Science degree in Materials Science and Engineering with a minor concentration in Computer Science from the University of Connecticut in 2014. She went on to obtain her Ph.D. in Macromolecular Science and Engineering from the University of Michigan in 2019 alongside Professor Sharon C. Glotzer, focusing on the self-assembly behavior and optical properties of colloidal nanoparticles. Following her doctoral work, she collaborated with Prof. Michele Ceriotti as a postdoctoral researcher at École Polytechnique Fédérale de Lausanne in Lausanne, Switzerland, working on developing and applying hybrid supervised-unsupervised machine learning models for data-driven studies of molecular design. Rose’s research group at UW-Madison, established in 2023, centers on developing techniques for and using data science and machine learning to unify our understanding of molecular motion and interactions across length scales. She and her group lead the development of scikit-matter, a scikit-learn-affiliated package for quantitative structure-property relations in materials research, and are core developers of chemiscope, an interactive visualizer for data-driven analyses of molecular datasets. Rose’s work has been recognized with a number of awards, including being named one of Matter’s ‘35 under 35’ in Materials Research, the Victor K. LaMer Award from the Colloids Division of the American Chemical Society, the Biointerfaces Institute Innovator Award, and the Charles G. Overberger Award for Excellence in Research. In addition to research, Rose has devoted herself to scientific service, leading and coordinating multiple outreach programs and publishing work in educational journals on community engagement and gender equity. Recently, she released the commentary ‘Not yet defect-free: the current landscape for women in computational materials research,’ in npj Computational Materials, highlighting the persisting inequities for women in her field.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=LMVVjuH-j0E">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Michele Ceriotti (EPFL)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/michele.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        13 November, 2025 15:00 (local Swedish time)<br>
+        <h2>Physically (un)inspired modeling: how much physics do we need to machine learn the quantum properties of materials?</h2><br>
+        <strong>Michele Ceriotti (EPFL)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Machine-learning techniques are often applied to perform ‘end-to-end’ predictions, making black-box estimates of a property of interest using only a coarse description of the corresponding inputs. In contrast, atomic-scale modeling of matter is most useful when it allows one to gather a mechanistic insight into the microscopic processes that underlie the behavior of molecules and materials. In this talk I will critically discuss how, and to which extent, physical-chemical ideas can and should be integrated into a machine-learning framework aimed at simulating matter at the atomic scale. I will discuss how physical priors, such as smoothness or symmetry of the structure-property relations, are used to inform the mathematical structure of a generic ML approximation - an approach that has become ubiquitous in the field. I will also discuss the emergence of unconstrained models that can directly learn physical constraints from large amounts of data, and that can outperform in speed and accuracy models that enforce physical constraints - showing however that care should be applied to use these models safely, so that the lack of built-in physics does not result into unphysical results. I will present examples relying on PET-MAD, a lightweight unconstrained model that achieves competitive accuracy across the periodic table despite being trained on a relatively small dataset, and that incorporates many advanced capabilities such as uncertainty quantification and direct force estimation.</p>
+
+        </p>
+        <p class="text-justify"><p>tbc</p>
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Anne-Florence Bitbol (EPFL)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/bitbol.jpeg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        10 October, 2024 15:00 (local Swedish time)<br>
+        <h2>Predicting interaction partners and generating new protein sequences using protein language models</h2><br>
+        <strong>Anne-Florence Bitbol (EPFL)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Protein sequences are shaped by functional optimization on the one hand and by evolutionary history, i.e. phylogeny, on the other hand. A multiple sequence alignment of homologous proteins contains sequences which evolved from the same ancestral sequence and have similar structure and function. In such an alignment, statistical patterns in amino-acid usage at different sites encode structural and functional constraints. Protein language models trained on multiple sequence alignments capture coevolution between sites and structural contacts, but also phylogenetic relationships. I will discuss a method we recently proposed that leverages these models to predict which proteins interact among the paralogs of two protein families, and improves the prediction of the structure of some protein complexes. Next, I will show that these models can be used to generate new protein sequences from given protein families. While multiple sequence alignments are very useful, their construction is imperfect. To address these limitations, we developed ProtMamba, a homology-aware but alignment-free protein language model based on the Mamba architecture, which efficiently uses long contexts. I will show that ProtMamba has promising generative properties, and is able to predict fitness.</p>
+
+        </p>
+        <p class="text-justify"><p>Anne-Florence Bitbol is an Assistant Professor at the Swiss Federal Institute of Technology in Lausanne (EPFL), where she leads the Laboratory of  computational Biology and Theoretical Biophysics, within the Institute of Bioengineering, also affiliated to the Swiss Institute of Bioinformatics. She studied physics at ENS Lyon, and obtained her PhD in 2012 at Université Paris-Diderot, advised by Jean-Baptiste Fournier. She then joined the Princeton Biophysics Theory group led by William Bialek, Curtis Callan and Ned Wingreen, as an HFSP Postdoctoral Fellow. In 2016 she became an independent CNRS researcher at Laboratoire Jean Perrin of Sorbonne Université in Paris, before joining EPFL in 2020. <br />Anne-Florence is broadly interested in understanding biological phenomena through physical concepts and mathematical and computational tools. She investigates the impacts of optimization and historical contingency in biological systems, from the molecular to the population scales. She studies how the protein sequence-function relationship is affected by phylogeny and physical constraints, and she develops inference methods from protein sequences, e.g. to predict protein-protein interactions from sequences. These methods are based on information theory, statistical physics and machine learning. She also assesses how microbial population evolution is impacted by spatial structure and environment changes, with applications to antibiotic resistance evolution, and to the evolution of bacteria in the gut. She currently holds an ERC Starting Grant.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=XPQx1xUkhpA">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Bethany A Lusch (Argonne National Lab)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://bethanyl.github.io/author/bethany-lusch/avatar_huffd2860d0c0d4bd1f6d3d21cd9c12409_334846_270x270_fill_q90_lanczos_center.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        14 April, 2022 15:00 (local Swedish time)<br>
+        <h2>Data-driven discovery of coordinates and governing equations</h2><br>
+        <strong>Bethany A Lusch (Argonne National Lab)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Governing equations are essential to the study of physical systems, providing models that can generalize to predict previously unseen behaviors. There are many systems of interest across disciplines where large quantities of data have been collected, but the underlying governing equations remain unknown. This work introduces an approach to discover governing models from data. The proposed method addresses a key limitation of prior approaches by simultaneously discovering coordinates that admit a parsimonious dynamical model. Developing parsimonious and interpretable governing models has the potential to transform our understanding of complex systems, including in neuroscience, biology, and climate science.</p>
+
+        </p>
+        <p class="text-justify"><p>Dr. Bethany Lusch is an Assistant Computer Scientist in the data science group at the Argonne Leadership Computing Facility at Argonne National Lab. Her research expertise includes developing methods and tools to integrate AI with science, especially for dynamical systems and PDE-based simulations. Her recent work includes developing machine-learning emulators to replace expensive parts of simulations, such as computational fluid dynamics simulations of engines and climate simulations. She is also working on methods that incorporate domain knowledge in machine learning, representation learning, and using machine learning to analyze supercomputer logs. She holds a PhD and MS in applied mathematics from the University of Washington and a BS in mathematics from the University of Notre Dame.</p>
+
+        </p>
+        <br><a href="https://youtu.be/exc40iJvWIU">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Tristan Bereau (Uni. Heidelberg)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/tristan.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        13 February, 2025 15:00 (local Swedish time)<br>
+        <h2>Free-energy Calculations from Neural Thermodynamic Integration</h2><br>
+        <strong>Tristan Bereau (Uni. Heidelberg)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Thermodynamic integration (TI) offers a rigorous method for estimating free-energy differences by integrating over a sequence of interpolating conformational ensembles. However, TI calculations are computationally expensive and typically limited to coupling a small number of degrees of freedom due to the need to sample numerous intermediate ensembles with sufficient conformational-space overlap. We propose to perform TI along an alchemical pathway represented by a trainable neural network, which we term Neural TI. Critically, we parametrize a time-dependent Hamiltonian interpolating between the interacting and non-interacting systems, and optimize its gradient using a denoising-diffusion objective. The ability of the resulting energy-based diffusion model to sample all intermediate ensembles allows us to perform TI from a single reference calculation. We apply our method to Lennard-Jones fluids, where we report accurate calculations of the excess chemical potential, demonstrating that Neural TI is capable of coupling hundreds of degrees of freedom at once. Extensions to solvation free energies for atomistic systems will be discussed.</p>
+
+        </p>
+        <p class="text-justify"><p>Tristan Bereau is a computational physicist working at the interface between multiscale modeling and machine learning for soft matter and biomolecules. He earned a Ph.D. in Physics at Carnegie Mellon University in 2011. After a postdoc at the University of Basel, he led an Emmy Noether research group at the Max Planck Institute for Polymer Research. He then moved to the University of Amsterdam as an assistant professor in chemistry and computer science, followed by a role in Industry. Tristan serves on the editorial boards of the journals Machine Learning: Science &amp; Technnology and Computational Science and Engineering. He is currently a professor at the Institute for Theoretical Physics at the University of Heidelberg.</p>
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Stefan Bauer (Helmholtz Munich / TU Munich / CIFAR)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/bauer.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+         8 June, 2023 14:30 (local Swedish time)<br>
+        <h2>Causal Experimental Design</h2><br>
+        <strong>Stefan Bauer (Helmholtz Munich / TU Munich / CIFAR)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Deep neural networks have achieved outstanding success in many tasks ranging from computer vision, to natural language processing, and robotics. However such models still pale in their ability to understand the world around us, as well as generalizing and adapting to new tasks or environments. One possible solution to this problem are causal models, since they can reason about the connections between causal variables and the effect of intervening on them. This talk will introduce the fundamental  concepts of causal inference, connections and synergies with deep learning  as well as practical applications and advances in sustainability and AI for science.</p>
+
+        </p>
+        <p class="text-justify"><p>Stefan Bauer is a professor at TU Munich, group leader at Helmholtz Institute Munich and a CIFAR Azrieli Global Scholar. Using and developing tools of causality, deep learning and real robotic systems, his research focuses on the longstanding goal of artificial intelligence to design machines that can extrapolate experience across environments and tasks. He obtained his PhD in Computer Science from ETH Zurich and was awarded with the ETH medal for an outstanding doctoral thesis. Before that, he graduated with a BSc and MSc in Mathematics from ETH Zurich and a BSc in Economics and Finance from the University of London. During his studies, he held scholarships from the Swiss and German National Merit Foundation. In 2019, he won the best paper award at the International Conference of Machine Learning (ICML) and in 2020, he was the lead organizer of the real-robot-challenge.com, a robotics challenge in the cloud.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=pnlSXG4oHs8">Video Recording (YouTube)</a>. <a href="/assets/slides/bauer-slides.pdf">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Bastian Rieck (Helmholtz Pioneer Campus and Technical University of Munich)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/rieck.jpg" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        10 February, 2022 13:30 (local Swedish time)<br>
+        <h2>Zoom and Enhance&#58; Towards Multi-Scale Representations in the Life Sciences</h2><br>
+        <strong>Bastian Rieck (Helmholtz Pioneer Campus and Technical University of Munich)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>With novel measurement technologies easily resulting in a deluge of data, we need to consider multiple perspectives in order to ‘see the forest for the trees.’ A single perspective or scale is often insufficient to faithfully capture the underlying patterns of complex phenomena, in particular in the life sciences. However, moving from an ‘either–or’ selection of relevant scales to a ‘both–and’ utilisation of all scales promises better insights and improved expressivity. The emerging field of topological machine learning provides us with effective tools for building multi-scale representations of complex data. This talk presents two use cases that demonstrate the power of learning such representations. The first use case involves improving antimicrobial resistance prediction—a critical problem in a world suffering from superbugs—while the second use case permits us a glimpse into how cognition changes from early childhood to adolescence.</p>
+
+        </p>
+        <p class="text-justify"><p>Bastian is Principal Investigator of the AIDOS Lab at the Institute of AI for Health and the Helmholtz Pioneer Campus, focusing on machine learning methods in biomedicine. Dr. Rieck is also TUM Junior fellow and a member of ELLIS. Dr. Rieck was previously senior assistant in the Machine Learning &amp; Computational Biology Lab of Prof. Dr. Karsten Borgwardt at ETH Zürich and was awarded his Ph.D.  in computer science from Heidelberg University.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=Fe5K89Sypuo">Video Recording (YouTube)</a>. <a href="/assets/slides/Bastian-Rieck-Slides.pdf">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Antonia Mey (University of Edinburgh)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="https://avatars.githubusercontent.com/u/3668316?v=4" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        14 March, 2024 15:00 (local Swedish time)<br>
+        <h2>Proteins under the computational microscope: from machine learning to molecular simulations</h2><br>
+        <strong>Antonia Mey (University of Edinburgh)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Proteins are molecular machines that drive most biological processes. Understanding how proteins function and how they interact with other molecules is essential for us to comprehend life and also aids in regulating diseases. One way to regulate protein function is through small molecules that interact with proteins to inhibit their activity. However, discovering new molecules and efficient methods to predict how effectively they may bind to a target protein is a challenging task. Harnessing computational tools, using machine learning and molecular simulations, provides atomistic models for studying the interactions between a small molecule and a protein. To make computational models valuable, they need to have a predictive power such as proposing a ligand pose, typically done by docking algorithms, or a free energy of binding, often done through so called alchemical free energy calculations. In this talk, I will walk you through our process of creating new molecules from x-ray fragment hits [1] using a generative machine learning model looking at the SARS-CoV-2 main protease. I will also highlight two different ways in which we can assess the free energy of binding: through machine learning [2] and alchemical free energy calculations [3], where we will look at protein examples involved in cancers and antimicrobial resistance. References: [1] Runcie, Mey, JCIM, 2023, 63, 19, 5996-6005 [2] Gorantla, Kubincova, Weisse, Mey, 2023, https://doi.org/10.1021/acs.jcim.3c01208 [3] Mey et al. Living J. Comput. Mol. Sci. 2020, 2, 18378</p>
+
+        </p>
+        <p class="text-justify"><p>Dr Antonia Mey is a Chancellor’s Fellow and Lecturer in the School of Chemistry at the University of Edinburgh. She obtained a BSc from Keele University in Physics with Chemistry and a PhD in Physics from the University of Nottingham working with Prof. Juan Garrahn on lattice protein models. After her PhD she joined Prof. Frank Noé group at the Free University in Berlin as a postdoc, where she developed new tools for the analysis of molecular simulations using Markov Models. In 2015, she moved to Edinburgh to work with Prof. Julien Michel on alchemical free energy simulation methods. In 2020, she started her independent career with a Christina Miller Fellowship in Edinburgh which was soon replaced by a Chancellor’s Fellowship in 2021 which she currently holds. Her main research interests lie in the field of computational biophysics and molecular modelling using machine learning and biomolecular simulations to understand protein function.</p>
+
+        </p>
+        <br><a href="https://www.youtube.com/watch?v=xMD8Os6oAeU">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Sarah Alamdari (Microsoft Research)" class="row" style="padding-top: 60px; margin-top: -60px;">
+    <div class="col-sm-3">
+        <img class="img-fluid rounded-circle" src="/assets/img/alamdari.png" width="200px" height="200px"><br>
+    </div>
+    <div class="col-sm-8">
+        11 September, 2025 15:00 (local Swedish time)<br>
+        <h2>Generative Sequence-Based Approaches to Protein Design</h2><br>
+        <strong>Sarah Alamdari (Microsoft Research)</strong><br>
+        <p class="text-justify"><b>Abstract:</b><p>Engineered proteins play increasingly essential roles in applications spanning pharmaceuticals, molecular tools, synthetic biology, and more. Deep generative models present an opportunity to accelerate protein engineering for therapeutic and biological applications. Recent advances in protein language models, has facilitated more controllable and flexible approaches to protein design.</p>
+<p>In this talk I will cover our recent work in developing these general-purpose protein language models and exploring their capabilities for functional protein design. First, we will discuss a general-purpose diffusion framework, EvoDiff, that combines evolutionary-scale data with the distinct conditioning capabilities of diffusion models for controllable protein design. Next, we introduce an extension of this work titled Dayhoff, a generative model of proteins that combines single sequences and sequence alignments into one autoregressive model via long context lengths. In this work, we explore how model size, data quality, and diversity impact gains in protein expression. We envision that these modeling frameworks will enable new capabilities in protein engineering towards programmable, functional design.</p>
+
+        </p>
+        <p class="text-justify"><p>Sarah Alamdari is currently a Senior Applied Scientist at Microsoft Research New England, in the Biomedical Machine Learning Group. Here, she uses artificial intelligence to design new proteins, with the goal of advancing our understanding biology. Her recent work has focused on developing new protein language models, employing machine learning techniques on protein sequence datasets. Previously, she completed her PhD in Chemical Engineering at the University of Washington as an NSF graduate research fellow where she applied and developed molecular dynamic frameworks to study the behavior of biomolecules at complex interfaces.</p>
+
+        </p>
+        <br><a href=".">Video Recording (YouTube)</a>. <a href=".">Download Slides</a>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright 2026 Simon  Olsson.
+    AI4Science, AI for Science, AI for Molecular Simulation, AI for Molecular Design, AI for Drug-Design, AI for Materials
+
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
