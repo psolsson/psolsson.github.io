@@ -1,6 +1,6 @@
 ---
 name: "Aleksandar Dimitrievikj"
-image: 
+image: /assets/img/aleks.png
 position: "Industrial PhD Student (AstraZeneca)"
 #current: # for alumni
 start-date: 26-03-16
