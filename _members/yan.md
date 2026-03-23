@@ -2,7 +2,7 @@
 name: Yan Wang
 image: /assets/img/yan.jpg
 position: Visiting PhD student
-#current: # for alumni
+current: PhD student Tongji University
 start-date: 2025-03-16
 end-date: 2025-09-30
 pronouns:
