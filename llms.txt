@@ -18,8 +18,9 @@ interface of AI/ML and the natural sciences, with a particular focus on
 generative AI surrogates for molecular dynamics and the design of small-molecule 
 therapeutics, biologics, vaccines, and antibodies.
 
-He is a WASP AI/MLX Fellow and is funded by the Knut and Alice Wallenberg 
-Foundation, WASP, Data-Driven Life Sciences (DDLS), WACQT, and AstraZeneca.
+He is a WASP AI/MLX Fellow, ELLIS Member and is funded by the ERC, Knut and Alice Wallenberg 
+Foundation, WASP, Data-Driven Life Sciences (DDLS), WACQT, and AstraZeneca. 
+Simon is the inaugural recipient of the ICTP-IBM Brahmagupta AI Prize.
 
 ## Key Research Areas
 
