@@ -1,0 +1,47 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# Simon Olsson
+# Simon Olsson
+
+> Associate Professor at Chalmers University of Technology, Gothenburg, Sweden.
+> Head of the AIMLeNS (AI and Machine Learning in the Natural Sciences) lab.
+> Research focus: machine learning for molecular simulation, generative AI for 
+> drug and antibody design, and AI-driven inverse molecular design.
+
+## About
+
+Simon Olsson leads the AIMLeNS group at the Data Science and AI division of 
+Chalmers' Computer Science and Engineering department. His work sits at the 
+interface of AI/ML and the natural sciences, with a particular focus on 
+generative AI surrogates for molecular dynamics and the design of small-molecule 
+therapeutics, biologics, vaccines, and antibodies.
+
+He is a WASP AI/MLX Fellow and is funded by the Knut and Alice Wallenberg 
+Foundation, WASP, Data-Driven Life Sciences (DDLS), WACQT, and AstraZeneca.
+
+## Key Research Areas
+
+- Generative AI for molecular simulation (flow matching, Boltzmann generators)
+- Inverse molecular design (small molecules, biologics, antibodies)
+- Implicit transfer operators and surrogate models for MD
+- Markov state models and molecular kinetics
+
+## Selected Publications
+
+- Noé, Olsson et al. "Boltzmann generators: Sampling equilibrium states of 
+  many-body systems with deep learning." Science, 2019.
+- Olsson & Noé. "Dynamic graphical models of molecular kinetics." PNAS, 2019.
+- Schreiner, Winther & Olsson. "Implicit Transfer Operator Learning: Multiple Time-Resolution Models for Molecular Dynamics." NeurIPS, 2023.
+- Diez, Schreiner & Olsson. "Transferable Generative Models Bridge Femtosecond to Nanosecond Time-Step Molecular Dynamics." Science, 2023.
+- Irwin, Tibo, Janet & Olsson. "Efficient 3D Molecular Generation with Flow 
+  Matching and Scale Optimal Transport." 2025 AISTATS.
+
+## Links
+
+- Website: https://psolsson.github.io
+- Publications: https://psolsson.github.io/publications/
+- Team: https://psolsson.github.io/team
+- ORCID: https://orcid.org/0000-0002-3927-7897
+- Google Scholar: https://scholar.google.com/citations?user=EJMhxFIAAAAJ
