@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Brian Trippe (Stanford University)"
-title: "tbc"
-bio:  "tbc"
-abstract: "tbc"
+title: "Calibration methods for generative models with application to protein structure modeling"
+bio:  "Brian Trippe is an Assistant Professor in the Department of Statistics at Stanford. Previously he was a visiting researcher at the Institute for Protein Design at the University of Washington where he worked with David Baker, and a postdoctoral fellow at Columbia University. He completed his Ph.D. in Computational and Systems Biology at MIT in 2022. His recent research has developed statistical machine learning methods to address challenges in biotechnology and medicine, with a focus on generative modeling and inference algorithms for protein engineering."
+abstract: "Generative models have driven rapid progress in protein structure prediction and design, yet they remain miscalibrated: backbone generation models, for example, produce realistic samples but systematically underestimate the probabilities of important modes and lack sensitivity to destabilizing mutations. This talk attributes these limitations to a form of miscalibration, wherein the statistics of generations deviate from desired values.  Such inconsistencies are not addressed by existing fine-tuning methods for image and text generation.  We frame calibration of generative models as a constrained optimization problem. Because the natural objective is intractable, we introduce two surrogate objectives and derive low-variance gradient estimators for stochastic optimization.  The resulting procedures reduce the majority of calibration error across hundreds of simultaneous constraints and models with up to nine billion parameters. Lastly, we describe a preliminary application to assimilate thermodynamic measurements to calibrate a generative model of protein structure Boltzmann ensembles."
 photo: /assets/img/trippe.jpg
 zoomroom: 65703862323
 zoompassword: ai4science
