@@ -1,7 +1,3 @@
----
-layout: none
-permalink: /llms.txt
----
 # Simon Olsson
 # Simon Olsson
 
