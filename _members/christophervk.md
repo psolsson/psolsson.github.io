@@ -6,7 +6,7 @@ position: PhD Student
 start-date: 26-05-04
 end-date: 31-05-04
 pronouns: He/Him/His
-email: klitzing@chalmers.se
+email: christopher.vonklitzing@chalmers.se
 scholar_userid: staRnygAAAAJ
 publons_id:
 research_gate_profile:
