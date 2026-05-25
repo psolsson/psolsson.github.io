@@ -2,21 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: AI and Machine Learning in the Natural Sciences # the website title (if blank, full name will be used instead)
+title: AIMLeNS — AI and Machine Learning in the Natural Sciences # the website title (if blank, full name will be used instead)
 first_name: Simon
 middle_name: 
 last_name: Olsson
 email: simonols@chalmers.se
 description:  
-  Research group at Chalmers University developing machine learning models to accelerate molecular simulations, molecular dynamics, vaccine design, drug design and materials design. Lead by Simon Olsson, pioneer in AI for Molecular Simulation.
+  AIMLeNS is the AI and Machine Learning in the Natural Sciences research group at Chalmers University of Technology, Gothenburg, led by Associate Professor Simon Olsson. We develop machine learning methods for molecular simulation, generative AI for drug, antibody and vaccine design, and AI-driven inverse molecular design.
 footer_text: >
-  AI4Science, AI for Science, AI for Molecular Simulation, AI for Molecular Design, AI for Drug-Design, AI for Materials
+  AIMLeNS is the AI and Machine Learning in the Natural Sciences research group at Chalmers University of Technology, led by Simon Olsson.
  
 
 icon: + # the emoji used as the favicon
-url:  # the base hostname & protocol for your site
+url: https://psolsson.github.io # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -35,8 +35,8 @@ max_width: 800px
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+og_image: /assets/img/group2025.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -133,6 +133,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
+  - jekyll-sitemap
   - jekyll/scholar
 #  - jekyll-twitter-plugin
 #  - jemoji

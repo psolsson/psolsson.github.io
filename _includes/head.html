@@ -5,37 +5,91 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Simon Olsson",
-  "givenName": "Simon",
-  "familyName": "Olsson",
-  "jobTitle": "Associate Professor",
-  "url": "https://psolsson.github.io",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "Chalmers University of Technology",
-    "url": "https://www.chalmers.se"
-  },
-  "worksFor": {
-    "@type": "Organization",
-    "name": "AIMLeNS - AI and Machine Learning in the Natural Sciences",
-    "url": "https://psolsson.github.io"
-  },
-  "knowsAbout": [
-    "Machine Learning for Molecular Simulation",
-    "Generative AI for Drug Design",
-    "Boltzmann Generators",
-    "Implicit Transfer Operators",
-    "Generative Molecular Dynamics",
-    "GenMD",
-    "Markov State Models",
-    "AI for Science"
-  ],
-  "description": "Simon Olsson is an Associate Professor at Chalmers University of Technology and head of the AIMLeNS lab. He develops machine learning methods for molecular simulation and generative AI for drug and antibody design, with work published in Science, PNAS, and NeurIPS. He is a pioneer of Generative Molecular Dynamics, including methods such as Boltzmann Generators and Implicit Transfer Operators. Simon is a recipient of an ERC Consolidator Grant, and the ICTP-IBM Brahmagupta AI Prize 2025. Simon is a WASP Fellow and ELLIS Member. He was selected as part of the inaugural cohort of the Chalmers Academic Excellence Program. Simon is also a founder of the Chalmers AI for Science seminar series.",
-  "sameAs": [
-    "https://orcid.org/0000-0002-3927-7897",
-    "https://scholar.google.com/citations?user=EJMhxFIAAAAJ",
-    "https://www.chalmers.se/en/persons/simonols"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://psolsson.github.io/#simon-olsson",
+      "name": "Simon Olsson",
+      "givenName": "Simon",
+      "familyName": "Olsson",
+      "jobTitle": "Associate Professor",
+      "url": "https://psolsson.github.io",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Chalmers University of Technology",
+        "url": "https://www.chalmers.se"
+      },
+      "worksFor": { "@id": "https://psolsson.github.io/#aimlens" },
+      "knowsAbout": [
+        "Machine Learning for Molecular Simulation",
+        "Generative AI for Drug Design",
+        "Boltzmann Generators",
+        "Implicit Transfer Operators",
+        "Generative Molecular Dynamics",
+        "GenMD",
+        "Markov State Models",
+        "AI for Science"
+      ],
+      "description": "Simon Olsson is an Associate Professor at Chalmers University of Technology and head of the AIMLeNS lab. He develops machine learning methods for molecular simulation and generative AI for drug and antibody design, with work published in Science, PNAS, and NeurIPS. He is a pioneer of Generative Molecular Dynamics, including methods such as Boltzmann Generators and Implicit Transfer Operators. Simon is a recipient of an ERC Consolidator Grant, and the ICTP-IBM Brahmagupta AI Prize 2025. Simon is a WASP Fellow and ELLIS Member. He was selected as part of the inaugural cohort of the Chalmers Academic Excellence Program. Simon is also a founder of the Chalmers AI for Science seminar series.",
+      "sameAs": [
+        "https://orcid.org/0000-0002-3927-7897",
+        "https://scholar.google.com/citations?user=EJMhxFIAAAAJ",
+        "https://www.chalmers.se/en/persons/simonols",
+        "https://github.com/psolsson",
+        "https://x.com/smnlssn"
+      ]
+    },
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://psolsson.github.io/#aimlens",
+      "name": "AIMLeNS — AI and Machine Learning in the Natural Sciences",
+      "alternateName": ["AIMLeNS", "AIMLeNS lab", "Olsson Group", "Simon Olsson Lab"],
+      "url": "https://psolsson.github.io",
+      "logo": "https://psolsson.github.io/assets/img/group2025.jpg",
+      "image": "https://psolsson.github.io/assets/img/group2025.jpg",
+      "description": "AIMLeNS is the AI and Machine Learning in the Natural Sciences research group at the Data Science and AI division of the Department of Computer Science and Engineering, Chalmers University of Technology. The group develops machine learning methods for molecular simulation, generative AI for inverse molecular design, and AI surrogates that bridge to experimentally observable time-scales.",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Chalmers University of Technology",
+        "url": "https://www.chalmers.se",
+        "department": {
+          "@type": "EducationalOrganization",
+          "name": "Department of Computer Science and Engineering, Data Science and AI division"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Gothenburg",
+          "addressCountry": "SE"
+        }
+      },
+      "member": { "@id": "https://psolsson.github.io/#simon-olsson" },
+      "knowsAbout": [
+        "AI for molecular simulation",
+        "Generative AI for molecular design",
+        "Drug discovery",
+        "Antibody design",
+        "Vaccine design",
+        "Materials design",
+        "Boltzmann generators",
+        "Flow matching for molecular dynamics",
+        "Implicit transfer operators"
+      ],
+      "funder": [
+        { "@type": "Organization", "name": "Knut and Alice Wallenberg Foundation", "url": "https://kaw.wallenberg.org/en" },
+        { "@type": "Organization", "name": "Wallenberg AI, Autonomous Systems and Software Program (WASP)", "url": "https://wasp-sweden.org/" },
+        { "@type": "Organization", "name": "Data-Driven Life Science (DDLS)", "url": "https://www.scilifelab.se/data-driven/" },
+        { "@type": "Organization", "name": "Wallenberg Centre for Quantum Technology (WACQT)", "url": "https://www.chalmers.se/en/centres/wacqt/" },
+        { "@type": "Organization", "name": "AstraZeneca AB", "url": "https://www.astrazeneca.com/" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://psolsson.github.io/#website",
+      "url": "https://psolsson.github.io",
+      "name": "AIMLeNS — AI and Machine Learning in the Natural Sciences",
+      "publisher": { "@id": "https://psolsson.github.io/#aimlens" },
+      "about": { "@id": "https://psolsson.github.io/#aimlens" }
+    }
   ]
 }
 </script>
@@ -45,12 +99,21 @@
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
-<meta property="og:site_name" content="{{ site.description }}" />
-<meta property="og:type" content="object" />
-<meta property="og:title" content="{{ site.name }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}" />
 <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:description" content="{{ page.title }}" />
-<meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+<meta property="og:description" content="{{ site.description | strip_newlines | strip }}" />
+<meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image | prepend: site.url }}{%- else -%}{{ site.og_image | prepend: site.url }}{%- endif -%}" />
+<meta property="og:image:alt" content="AIMLeNS research group at Chalmers University of Technology, led by Simon Olsson" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@{{ site.twitter_username }}" />
+<meta name="twitter:creator" content="@{{ site.twitter_username }}" />
+<meta name="twitter:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}" />
+<meta name="twitter:description" content="{{ site.description | strip_newlines | strip }}" />
+<meta name="twitter:image" content="{%- if page.og_image -%}{{ page.og_image | prepend: site.url }}{%- else -%}{{ site.og_image | prepend: site.url }}{%- endif -%}" />
 {% endif %}
 
 <!-- Bootstrap & MDB -->
