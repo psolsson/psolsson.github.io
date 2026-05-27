@@ -1,9 +1,9 @@
 ---
 layout: event
 speaker: "Sereina Riniker (ETH Zurich)"
-title: "TBC"
-bio:  "TBC"
-abstract: "TBC"
+title: "Multiscale Neural Network Potential for the Simulation of Protein Dynamics andEnzymatic Reactions"
+bio:  "Sereina Riniker is Full Professor of Computational Chemistry at the Department of Chemistry and Applied Biosciences. She was born in Switzerland in 1985. In 2008, she completed her Master’s degree in chemistry at ETH Zurich. After an internship in the research department of Givaudan AG and a research stay at the University of California Berkeley, she returned in 2009 to ETH Zurich to obtain a PhD in molecular dynamics simulations. From 2012 to 2014, she held a postdoctoral position in cheminformatics at the Novartis Institutes for BioMedical Research in Basel and Cambridge, Massachusetts. In June 2014, she came as Tenure-Track Assistant Professor to ETH Zurich. She was promoted in April 2020 to Associate Professor and in April 2025 to Full Professor."
+abstract: "From simple clustering techniques to sophisticated neural networks, the use of machine learning has become a valuable tool in many fields of chemistry in the past decades. Here, we describe how we explore the use of machine learning (ML) for predict physical interactions between particles in molecular dynamics (MD) simulations in order to simulate biological systems in the high nanosecond range at QM level of accuracy. We have developed a graph neural network approach using anisotropic message passing (AMP) that is specifically suited for the use in ML/MM simulations (analogous to QM/MM) with electrostatic embedding. While the first versions were system-specific, the AMP approach showed already local transferability among similar systems, which we exploited in the recent third version where we trained a foundational model on 1.5 million QM/MM reference data points of peptides, small molecules, and transition states. Using this model, we could perform hundred nanosecond simulations of proteins in water and compute free-energy profiles of enzymatic reactions where the ''QM zone'' included the full protein." 
 photo: /assets/img/riniker.jpg
 zoomroom: 64260667753
 zoompassword: ai4science
