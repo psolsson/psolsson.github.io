@@ -1,7 +1,3 @@
----
-layout: none
-permalink: /robots.txt
----
 # Allow all standard search engine crawlers.
 User-agent: *
 Allow: /
