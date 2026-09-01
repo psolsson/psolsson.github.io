@@ -3,7 +3,7 @@ name: Hedvig Wennberg
 image: /assets/img/hedvig.jpg
 position: Msc student
 start-date: 26-01-19
-#end-date: 26-06-19
+end-date: 26-06-19
 pronouns: she/her
 email: hedvigwe@chalmers.se
 github_username: hedwen

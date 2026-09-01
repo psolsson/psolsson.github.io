@@ -5,7 +5,7 @@ position: Exchange, Research Project Student
 #current: 
 start-date: 26-03-01
 # for alumni
-#end-date: YY-MM-DD  
+end-date: 26-05-23  
 pronouns: he/him
 email: tanmayk@chalmers.se
 #scholar_userid: 

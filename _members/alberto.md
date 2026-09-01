@@ -4,7 +4,7 @@ image: /assets/img/lazzeri.jpg
 position: Visiting Master student
 #current: # for alumni
 start-date: 26-03-02
-#end-date: YY-MM-DD  
+end-date: 26-09-01  
 pronouns: 
 email: alberto.lazzeri@studenti.unimi.it
 scholar_userid: 
