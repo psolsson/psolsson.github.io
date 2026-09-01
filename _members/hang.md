@@ -4,7 +4,7 @@ image: /assets/img/hang.jpg
 position: PhD student
 #current: # for alumni
 start-date: 23-12-02 (YY-MM-DD）
-end-date: YY-MM-DD  
+#end-date: YY-MM-DD  
 pronouns: He/Him/His
 email: hangzo@chalmers.se
 scholar_userid: 

@@ -2,7 +2,7 @@
 name: Tanmay Kamat
 image: /assets/img/tanmay_photo.png
 position: Exchange, Research Project Student
-#current: 
+current: unknown
 start-date: 26-03-01
 # for alumni
 end-date: 26-05-23  

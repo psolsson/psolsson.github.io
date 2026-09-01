@@ -1,6 +1,7 @@
 ---
 name: Hedvig Wennberg
 image: /assets/img/hedvig.jpg
+current: Unknown # for alumni
 position: Msc student
 start-date: 26-01-19
 end-date: 26-06-19

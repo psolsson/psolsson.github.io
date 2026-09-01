@@ -1,6 +1,7 @@
 ---
 name: Max Green
 image: /assets/img/maxsquare.jpg
+current: Icomera # for alumni
 position: MSc Student
 start-date: 26-01-20
 end-date: 26-06-19  

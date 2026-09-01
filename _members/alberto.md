@@ -2,7 +2,7 @@
 name: Alberto Lazzeri
 image: /assets/img/lazzeri.jpg
 position: Visiting Master student
-#current: # for alumni
+current: Unknown # for alumni
 start-date: 26-03-02
 end-date: 26-09-01  
 pronouns: 
