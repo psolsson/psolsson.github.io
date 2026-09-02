@@ -23,3 +23,4 @@ keybase_username:
 gitlab_username:
 dblp_url:
 description: Anand works on generative models for molecular simulation. He completed his BS-MS in Physics from IISER Pune. Previously, he worked on machine learning interatomic potentials at the University of Luxembourg and on understanding structure-dynamics relationships in glassy systems using ML at CNRS-LIPhy.
+---
