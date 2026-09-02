@@ -4,8 +4,8 @@ image: /assets/img/chris.png
 position: "PhD student"
 start-date: 21-08-01
 # for alumni
-current:
-#end-date: YY-MM-DD  
+current: Patent engineer, RENTSCH PARTNER AG
+end-date: 26-06-12  
 pronouns: "he/him/his"
 email: "kolloff@chalmers.se"
 scholar_userid: 
