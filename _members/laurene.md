@@ -1,5 +1,5 @@
 ---
-name: 
+name: Laurène Jacquot
 image: /assets/img/laurene.jpeg
 position: 
 #current: # for alumni
