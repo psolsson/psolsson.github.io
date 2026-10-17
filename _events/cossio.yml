@@ -1,14 +1,14 @@
 ---
 layout: event
 speaker: "Pilar Cossio (Flatiron Institute)"
-title: "AI around the Design-Make-Test cycle"
+title: "Steering Physical and Generative Priors with Cryo-EM Data to Infer Biomolecular Ensembles"
 bio:  "Pilar Cossio has worked at the Flatiron Institute, Center for Computational Mathematics, since 2021 as the Research Scientist and Project Leader for Biomolecular and Biophysical Inference (BBI). Previously, Cossio was Max Planck Tandem Group Leader associated with the University of Antioquia (Colombia) and the Max Planck Institute of Biophysics (Germany). She also has held postdoctoral positions at the National Institute of Health (NIH, USA) and the Max Planck Institute of Biophysics. Cossio focuses on the development of mathematical and computational methods to characterize proteins’ structures and dynamics from cryo-electron microscopy, single-molecule spectroscopy and biomolecular simulations. Cossio holds a Ph.D. in Physics and Chemistry of Biological Systems from the International School for Advanced Studies (SISSA) in Italy and a B.S. in Physics from the University of Antioquia."
 abstract: "Biomolecules are dynamic, and understanding their function requires characterizing not just individual structures but entire conformational ensembles and their populations. Cryo-electron microscopy (cryo-EM) captures noisy snapshots of individual molecules, providing direct experimental access to these ensembles, yet extracting them remains challenging. In this talk, I will present a unified framework for ensemble inference in which prior knowledge, either from molecular dynamics (MD) force fields or pretrained diffusion models, is steered by cryo-EM data. With MD, we bias simulations using a likelihood computed directly from particle images, jointly inferring structures and population weights without a pre-sampled ensemble. With diffusion models, we guide generation toward experimental data, including by optimizing the model’s conditioning to shift the prior itself. Applied to proteins and RNAs, these approaches recover multiple conformational states and their populations from synthetic and experimental data, opening the way to ensemble-level structural biology of flexible biomolecules. "
 photo: /assets/img/pilar.png
 zoomroom: 67713915030
 zoompassword: ai4science
-start: 2026-10-08T15:00:00.00+01:00
-end: 2026-10-08T16:00:00.00+01:00
+start: 2026-11-12T15:00:00.00+01:00
+end: 2026-11-12T16:00:00.00+01:00
 youtube: https://www.youtube.com/watch?v=ZmunXzHKc8Y
 slides: 
 ---
