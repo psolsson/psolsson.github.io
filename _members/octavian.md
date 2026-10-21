@@ -1,6 +1,6 @@
 ---
 name: Octavian Ianc
-image: /assets/img/missing.svg # will add
+image: /assets/img/octavian.jpg
 position: PhD Student
 #current: # for alumni
 start-date: 2026-10-19
