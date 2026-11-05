@@ -24,6 +24,7 @@ AIMLeNS, May 2024.
 
 AIMLeNS is funded by:
 <ul>
+<li><a href=\"https://erc.europa.eu">ERC</a> Consolidator Grant</li>
 <li><a href=\"https://kaw.wallenberg.org/en\">Knut and Alice Wallenberg Foundation</a> project grant</li>
 <li><a href=\"https://wasp-sweden.org/\">Wallenberg AI, Autonomous Systems and Software Program (WASP)</a></li>
 <li><a href=\"https://www.scilifelab.se/data-driven/\">Data-Driven Life Science (DDLS)</a></li>
